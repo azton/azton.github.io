@@ -1,1 +1,4 @@
 
+#build settings
+markdown: kramdown
+theme: Hacker
