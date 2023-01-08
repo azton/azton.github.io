@@ -15,7 +15,7 @@ sidebar_sort_order: 2
 
 ### 2022-present: Argonne National Laboratory
 
-*Postdoctoral researcher in machine learning and cosmology*
+*Postdoctoral Researcher in Machine Learning and Cosmology*
 
 :   * Develop ML/AI models for use in cosmological simulations and in simulation analysis
 :   * Evaluate effect of different neural network architectures and problem formulations on model outcomes
@@ -33,16 +33,16 @@ sidebar_sort_order: 2
 :   Tools: C, C++, Fortran, Python, PyTorch, NumPy, Pandas, ENZO astrophysical simulation code, Grackle chemistry library
 
 ### 2015-2016: University of Illinois at Urbana-Champaign
-*Undergraduate research assistant, Professor Dale Van Halingen*
+*Undergraduate Research Assistant, Professor Dale Van Halingen*
 
 :   * Developed and executed novel method of superconducting thin-film deposition to generate gradiated superconducting films
 :   * Developed test suite to evaluate thin films
 :   * Performed tunneling electron microscopy to quantify surface quality of films
 
-:   Tools: Matlab, Python, Ultra-violet lasers, ablative methods of superconductor deposition
+:   Tools: Matlab, Python, Ultraviolet lasers, ablative methods of superconductor deposition
 
 ### 2014-2015: University of Illinois at Urbana-Champaign   
-*Undergraduate research assistant, Professor Alexei Aksimentiev*
+*Undergraduate Research Assistant, Professor Alexei Aksimentiev*
 :   * Performed small-scale molecular dynamics simulations
 :   * Designed polypeptides that react to heat and chemical concentration to generate rough locomotion
 :   * Designed molecular dynamics IC generator that could create arbitrary polypeptides
