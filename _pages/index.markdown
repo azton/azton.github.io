@@ -28,10 +28,10 @@ Here, I'll put a few recent papers or articles that caught my eye.  Some focus o
 ## Tools
 The tools of my trade.  There's a lot of ways to accomplish astrophysics simulations and deep learning, these are just the ones I use.
 * Simulations: 
-    * [Enzo](/https://github.com/enzo-project/)
-    * [Grackle](/https://grackle.readthedocs.io/en/latest/)
-    * HACC
+    * [Enzo](https://github.com/enzo-project/
+    * [Grackle](https://grackle.readthedocs.io/en/latest)
+    * HACC (Hybrid-hardware Accelerated Cosmology Code)
 * Numerics, data generation and analysis: Python, NumPy, Pandas and the usual data science suspects.
-* Defining models, one-off testing: [Pytorch](/https://pytorch.org/)
-* Training: [Pytorch Lightning](/https://www.pytorchlightning.ai/)
-* Computers: [Expanse](/https://www.sdsc.edu/support/user_guides/expanse.html/), [Comet (RIP)](/https://www.sdsc.edu/support/user_guides/comet.html/), [Frontera](/https://frontera-portal.tacc.utexas.edu/user-guide/intro/)
+* Defining models, one-off testing: [Pytorch](https://pytorch.org)
+* Training: [Pytorch Lightning](https://www.pytorchlightning.ai)
+* Computers: [Expanse](https://www.sdsc.edu/support/user_guides/expanse.html), [Comet (RIP)](https://www.sdsc.edu/support/user_guides/comet.html), [Frontera](https://frontera-portal.tacc.utexas.edu/user-guide/intro)
