@@ -81,7 +81,7 @@ sidebar_sort_order: 2
 * Parallel programming, execution and debugging (>1k MPI tasks)
 
 
-# Publications
+## Publications
 
 - - - 
 
@@ -105,7 +105,7 @@ sidebar_sort_order: 2
 :   *submitted for publication*
 :   [https://arxiv.org/abs/2210.14805](https://arxiv.org/abs/2210.14805)
 
-# Funded and Awarded Grants
+## Funded and Awarded Grants
 
 - - -
 
@@ -121,7 +121,7 @@ sidebar_sort_order: 2
 :   My role: Formulated project goals and developed project workflow to accommodate grant duration. Wrote proposal to justify need of project and usefulness in scientific application to non-domain experts.
 :   Award: 25,000 GPU-hours + 19,000 GPU-hours (renewal)
 
-# Teaching Experience
+## Teaching Experience
 
 - - -
 
@@ -135,7 +135,7 @@ sidebar_sort_order: 2
 :   + Led experiments two laboratory sections.
 :   + Earned overall "Excellent" rating by students in both sections
 
-# Education
+## Education
 
 - - -
 
