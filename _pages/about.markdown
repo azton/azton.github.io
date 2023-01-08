@@ -113,6 +113,7 @@ sidebar_sort_order: 2
 :   Title: Collaborative Research: CDS&E: AI-Enhanced Exascale Simulations Of The Earliest Galaxies
 :   Funding organization: National Science Foundation
 :   My role: Design and development of the deep learning models that would be used to enable massive scale simulations.  Proposed network architectures, designs for modelling stellar feedback, and outlined methods to quantify the model performance.  Detailed workflow to carry project from concept to implementation in live simulations.
+:   Award: $463,000 for three years
 
 2. Grant AST20007 (PI Michael Norman) and renewal
 :   Title: Primordial Stellar Feedback Models via Deep Neural Networks
