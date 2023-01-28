@@ -9,10 +9,20 @@ sidebar_sort_order: 1
 ---
 ![Early Cosmological Simulations](/assets/img/galgif.gif)
 ## Research Interests
-Deep learning is opening up avenues of computation that were unimaginable 10 years ago.  My research attempts to bring the power of deep learning methods to astrophysical simulations to accomplish tasks that a) couldn't be done without it, or b) couldn't be done in a hubble time without it. In the reckless pursuit of applying deep learning to simulations, I also develop methods of error checking and validation to ensure that, although we cannot enumerate what all 40 million parameters of a model represent, we can estimate the models' correctness and trustworthiness in real time.  This work can be applied in consort with the next-generation of exascale simulation codes ([Enzo-E](https://github.com/enzo-project)) to enable the most massive hydrodynamic + star formation simulations that have ever been accomplished.
+Deep learning is opening up avenues of computation that were unimaginable 10 years ago.  My research attempts to bring the power of deep learning methods to astrophysical simulations to accomplish tasks that a) couldn't be done without it, or b) couldn't be done in a hubble time without it. In the reckless pursuit of applying deep learning to simulations, I also develop methods of error checking and validation to ensure that, although we cannot enumerate what all 40 million parameters of a model represent, we can estimate the models' correctness and trustworthiness in real time.  
+
+I've also developed an interest in the analysis of deep learning architectures.  For example, given several architectures trained on the same task, how can we compare them, beyond tradition metrics like accuracy or area-under-the-curve metrics?  Which architectures generalize most effectively, and can we quantify how/when they will break?  How can we build interpretability into model predictions?  
 
 ## Reading
 Here, I'll put a few recent papers or articles that caught my eye.  Some focus on ML/DL methods or new architectures.  Some focus on stellar feedback or evolution.
+
+* Transformers for vision! 
+  * [SWIN](https://arxiv.org/pdf/2111.09883.pdf)
+  * [Convolutions and trasformers, together at last](https://arxiv.org/pdf/2103.15808.pdf)
+  * [VAN](https://arxiv.org/pdf/2202.09741.pdf)
+  * [Transformer performing U-Nets job](https://arxiv.org/pdf/2112.01527.pdf)
+  * [Neighborhood Attention](https://arxiv.org/pdf/2204.07143.pdf)
+  * [Getting language models to be more factual; Retrieval Augmented Generation](https://arxiv.org/pdf/2005.11401.pdf)
 * A Method of augmentation in generative adversarial networks, [ADA](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/ada-paper.pdf)
 * A Convolutional Tensor-train LSTM for time-series predictions, [CTTLSTM](https://sites.google.com/nvidia.com/conv-tt-lstm)
 * Imagine accelerating your computation up to a [billion times](https://developer.nvidia.com/blog/using-ai-based-emulators-to-speed-up-simulations-by-billions-of-times/)
