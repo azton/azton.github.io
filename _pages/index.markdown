@@ -16,9 +16,9 @@ I've also developed an interest in the analysis of deep learning architectures. 
 ## Reading
 Here, I'll put a few recent papers or articles that caught my eye.  Some focus on ML/DL methods or new architectures.  Some focus on stellar feedback or evolution.
 
-* [ALiBi] (https://arxiv.org/abs/2108.12409)
+* [ALiBi](https://arxiv.org/abs/2108.12409)
 * [Mega](https://arxiv.org/abs/2209.10655)
-* [RMT] (https://arxiv.org/abs/2207.06881)
+* [RMT](https://arxiv.org/abs/2207.06881)
 * [SWIN](https://arxiv.org/pdf/2111.09883.pdf)
 * [Convolutions and trasformers, together at last](https://arxiv.org/pdf/2103.15808.pdf)
 * [VAN](https://arxiv.org/pdf/2202.09741.pdf)
