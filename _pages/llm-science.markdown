@@ -16,37 +16,32 @@ I am currently working to apply transformer architectures to three separate prob
 ## Biology/Life Sciences
 There has been a lot of work applying transformers to genomic or protein sequence problems.  It makes a lot of sense, as genomic data is readily representable as a sequence of letters, so the transition to LLM modeling is simple (in theory)--in reality, the rules of language do not directly translate to genomics, so the problem is quite different.
 
-A review: [Transformer-based deep learning for predicting protein properties in the life sciences](https://elifesciences.org/articles/82819)
-
-ESM-1/2 is a standard SOTA for protein applications; learned on amino-acid representations: [ESM Github](https://github.com/facebookresearch/esm/tree/main/esm)
-
-GenSLMs trained on nucleotide 3-mer represenations as applied to COVID: [GenSLM Github](https://github.com/ramanathanlab/genslm/tree/main/genslm)
-
+1. [A Review: Transformer-based deep learning for predicting protein properties in the life sciences](https://elifesciences.org/articles/82819)
+2. [ESM-1/2 is a standard SOTA for protein applications; learned on amino-acid representations](https://github.com/facebookresearch/esm/tree/main/esm)
+3. [GenSLMs trained on nucleotide 3-mer represenations as applied to COVID](https://github.com/ramanathanlab/genslm/tree/main/genslm)
+4. [Single-nucleotide genomic model with >500K context window](https://github.com/HazyResearch/hyena-dna)
 
 ## Chemistry/Molecular applications
 
-[The molecular transformer](https://pubs.acs.org/doi/pdf/10.1021/acscentsci.9b00576)
+1. [The molecular transformer](https://pubs.acs.org/doi/pdf/10.1021/acscentsci.9b00576)
 
 ## Physics and physical systems
 
-[Transformers for modeling physical systems: a review](https://openreview.net/pdf/c45d1ade1683075a8a4e5bfe568cf3915805af44.pdf)
+1. [Transformers for modeling physical systems: a review](https://openreview.net/pdf/c45d1ade1683075a8a4e5bfe568cf3915805af44.pdf)
 
 ## Materials/Condensed Matter Physics
 
-[Generative materials design with transformers](https://ui.adsabs.harvard.edu/abs/2022arXiv220613578F/abstract)
-[Crystal Transformer](https://ui.adsabs.harvard.edu/abs/2022arXiv220411953W/abstract)
-
-[Predicting polymer properties](https://www.nature.com/articles/s41524-023-01016-5)
-
-[Predict multiscale physics fields and nonlinear material properties](https://www.sciencedirect.com/science/article/abs/pii/S1369702122001316)
+1. [Generative materials design with transformers](https://ui.adsabs.harvard.edu/abs/2022arXiv220613578F/abstract)
+2. [Crystal Transformer](https://ui.adsabs.harvard.edu/abs/2022arXiv220411953W/abstract)
+3. [Predicting polymer properties](https://www.nature.com/articles/s41524-023-01016-5)
+4. [Predict multiscale physics fields and nonlinear material properties](https://www.sciencedirect.com/science/article/abs/pii/S1369702122001316)
 
 
 ## Astrophysics/Cosmology
 
-[Time-series transformer for Photometric Classification](https://arxiv.org/abs/2105.06178)
-
-[Representing light curves with transformer embeddings](https://arxiv.org/abs/2105.06178)
+1. [Time-series transformer for Photometric Classification](https://arxiv.org/abs/2105.06178)
+2. [Representing light curves with transformer embeddings](https://arxiv.org/abs/2105.06178)
 
 
 ## Mathematics
-[Foundation models for PDEs](https://arxiv.org/pdf/2306.00258.pdf)
+1. [Foundation models for PDEs](https://arxiv.org/pdf/2306.00258.pdf)
