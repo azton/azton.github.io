@@ -15,7 +15,7 @@ sidebar_sort_order: 2
 
 ### 2022-present: Argonne National Laboratory
 
-*Postdoctoral Researcher in Machine Learning and Cosmology*
+*Postdoctoral Researcher in Machine Learning and Cosmology, Computational Sciences and Argonne Leadership Computing Facility Divisions, Argonne National Laboratory*
 
 :   * Develop ML/AI models for use in cosmological simulations and in simulation analysis
 :   * Evaluate effect of different neural network architectures and problem formulations on model outcomes

@@ -31,7 +31,7 @@ Here, I'll put a few recent papers or articles that caught my eye.  Some focus o
 
 
 ## Research Activities
-* Long-context Transformers for genomic applications (https://github.com/azton/GenomeLM)
+* Long-context Transformers for genomic applications
 * Physically motivated stellar feedback models
 * External Enrichment of Minihalos by the First Supernovae
 * Predicting Primordial Star Formation with Deep Convolutional Neural Networks
