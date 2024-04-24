@@ -19,8 +19,9 @@ sidebar_sort_order: 2
 
 :   * Develop ML/AI models for use in cosmological simulations and in simulation analysis
 :   * Evaluate effect of different neural network architectures and problem formulations on model outcomes
+:   * Co-lead post-pretraining team for AuroraGPT project.  Develop and direct instruction tuning and RL approaches, long-context model training; assist model evaluation and dataset curation
 
-:   Tools: C, C++, Python, PyTorch, NumPy, Pandas, HACC cosmological simulation code
+:   Tools: C, C++, Python, PyTorch, NumPy, Pandas, HACC cosmological simulation code, Deepspeed, Megatron-LM, Huggingface
 
 ### 2016-2022: UC San Diego Center for Astrophysics and Space Sciences, Laboratory for Computational Astrophysics
 *Graduate Research Assistant, Professor Michael Norman*
