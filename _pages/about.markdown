@@ -55,7 +55,7 @@ sidebar_sort_order: 2
 - - -
 
 ### Deep learning frameworks and tools
-* PyTorch, Pytorch-lightning, tensorboard
+* PyTorch, Pytorch-lightning, Huggingface, Megatron-LM, Deepspeed
 * Tensorflow
 * MXnet
 ### Deep learning architectures

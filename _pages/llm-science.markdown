@@ -26,7 +26,10 @@ There has been a lot of work applying transformers to genomic or protein sequenc
 1. [Position interpolation with RoPE](https://arxiv.org/pdf/2306.15595.pdf)
 2. [Feedback loops for infinite working memory](https://arxiv.org/abs/2404.09173)
 3. [YaRN: Yet another RoPE extensioN method](https://arxiv.org/pdf/2309.00071.pdf)
-
+4. [Data engineering for 128K+ context windows](https://arxiv.org/pdf/2402.10171.pdf)
+5. [Longer contexts via rediculous amounts of fine-tuning, but minimal model changes](https://arxiv.org/pdf/2309.16039.pdf)
+6. [Extending context windows with 100 samples](https://arxiv.org/pdf/2401.07004v1.pdf)
+   
 ## Fine-tuning: making the transformer work for you
 1. [ORPO: preference optimization without a reference model](https://arxiv.org/abs/2403.07691)
 2. [Adversarial preference optimization](https://arxiv.org/abs/2311.08045)
