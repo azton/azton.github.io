@@ -16,10 +16,31 @@ I am currently working to apply transformer architectures to three separate prob
 ## Biology/Life Sciences
 There has been a lot of work applying transformers to genomic or protein sequence problems.  It makes a lot of sense, as genomic data is readily representable as a sequence of letters, so the transition to LLM modeling is simple (in theory)--in reality, the rules of language do not directly translate to genomics, so the problem is quite different.
 
-1. [A Review: Transformer-based deep learning for predicting protein properties in the life sciences](https://elifesciences.org/articles/82819)
-2. [ESM-1/2 is a standard SOTA for protein applications; learned on amino-acid representations](https://github.com/facebookresearch/esm/tree/main/esm)
-3. [GenSLMs trained on nucleotide 3-mer represenations as applied to COVID](https://github.com/ramanathanlab/genslm/tree/main/genslm)
-4. [Single-nucleotide genomic model with >500K context window](https://github.com/HazyResearch/hyena-dna)
+1. [EVO: Long-context DNA transformer](https://www.biorxiv.org/content/10.1101/2024.02.27.582234v1)
+2. [A Review: Transformer-based deep learning for predicting protein properties in the life sciences](https://elifesciences.org/articles/82819)
+3. [ESM-1/2 is the SOTA for protein applications; learned on amino-acid representations](https://github.com/facebookresearch/esm/tree/main/esm)
+4. [GenSLMs trained on gene sequences as 3-mer represenations as applied to COVID](https://github.com/ramanathanlab/genslm/tree/main/genslm)
+5. [Single-nucleotide genomic model with >500K context window](https://github.com/HazyResearch/hyena-dna)
+
+## Long sequence modeling in transformers
+1. [Position interpolation with RoPE](https://arxiv.org/pdf/2306.15595.pdf)
+2. [Feedback loops for infinite working memory](https://arxiv.org/abs/2404.09173)
+3. [YaRN: Yet another RoPE extensioN method](https://arxiv.org/pdf/2309.00071.pdf)
+
+## Fine-tuning: making the transformer work for you
+1. [ORPO: preference optimization without a reference model](https://arxiv.org/abs/2403.07691)
+2. [Adversarial preference optimization](https://arxiv.org/abs/2311.08045)
+3. [Direct preference optimization](https://arxiv.org/pdf/2310.03708.pdf)
+4. [Limitations of instruction tuning for LLMs](https://arxiv.org/pdf/2402.05119.pdf)
+
+## Modifications to RLHF approaches
+1. [Leveraging reward models for more robust modeling](https://browse.arxiv.org/pdf/2402.00782)
+2. [Thinking before speaking](https://arxiv.org/pdf/2403.09629.pdf)
+
+## Unlearning and controlled forgetting
+1. [LLM Unlearning](https://openreview.net/pdf?id=wKe6jE065x)
+2. [Who's Harry Potter?](https://arxiv.org/pdf/2310.02238.pdf)
+3. 
 
 ## Chemistry/Molecular applications
 
@@ -28,6 +49,8 @@ There has been a lot of work applying transformers to genomic or protein sequenc
 ## Physics and physical systems
 
 1. [Transformers for modeling physical systems: a review](https://openreview.net/pdf/c45d1ade1683075a8a4e5bfe568cf3915805af44.pdf)
+2. [Astronomical foundation models for Stars](https://arxiv.org/pdf/2308.10944.pdf)
+   
 
 ## Materials/Condensed Matter Physics
 

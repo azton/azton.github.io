@@ -142,7 +142,7 @@ sidebar_sort_order: 2
 2022
 :   **PhD, Physics**
 :        University of California, San Diego
-:       Dissertation: Surrogate modeles and physically-motivated sub-grid algorithms for star formation and feedback
+:       Dissertation: Surrogate models and physically-motivated sub-grid algorithms for star formation and feedback
 :       Advisor: Michael L. Norman
 
 2015
