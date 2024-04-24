@@ -40,7 +40,6 @@ There has been a lot of work applying transformers to genomic or protein sequenc
 ## Unlearning and controlled forgetting
 1. [LLM Unlearning](https://openreview.net/pdf?id=wKe6jE065x)
 2. [Who's Harry Potter?](https://arxiv.org/pdf/2310.02238.pdf)
-3. 
 
 ## Chemistry/Molecular applications
 
