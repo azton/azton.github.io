@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resume   
-permalink: /resume/
+permalink: /none/
 sidebar_sort_order: 2
 ---
 

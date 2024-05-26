@@ -9,9 +9,7 @@ sidebar_sort_order: 1
 ---
 ![Early Cosmological Simulations](/assets/img/galgif.gif)
 ## Research Interests
-Deep learning is opening up avenues of computation that were unimaginable 10 years ago.  My research attempts to bring the power of deep learning methods to astrophysical simulations to accomplish tasks that a) couldn't be done without it, or b) couldn't be done in a hubble time without it. In the reckless pursuit of applying deep learning to simulations, I also develop methods of error checking and validation to ensure that, although we cannot enumerate what all 40 million parameters of a model represent, we can estimate the models' correctness and trustworthiness in real time.  
-
-I've also developed an interest in the analysis of deep learning architectures.  For example, given several architectures trained on the same task, how can we compare them, beyond tradition metrics like accuracy or area-under-the-curve metrics?  Which architectures generalize most effectively, and can we quantify how/when they will break?  How can we build interpretability into model predictions?  
+I am deeply involved in three major areas of work spanning genomics, cosmology, and language modeling.  My work on genome-scale language models is a continuation of the Gordon Bell prize-winning GenSLM models.  There, I work to extend the context window of the models to be able to analyze whole bacterial and viral genomes in a single context--which would enable modeling evolutionary or mutational trajectories.  Second, I work in domain specific foundation models for cosmology, where we aim to create multi-modal models capable of relating different representations of the same objects, such as learning the relationship between a galaxy image and star formation history from the same object. From these models, you can robustly predict various quantities as they are requested, instead of being constrained by the pretraining of the model.  Finally, I work in the area of large language models on the AuroraGPT project.  There, I lead a team to incorporate scientific knowledge into the post-pretraining protocols in meaningful ways.  We have created instruct tuning and preference optimization pipelines that outperform thier state-of-the-art counterparts in many evaluations, including MMLU and Decoding Trust.  Our current focus is on generating instruct and preference datasets that enhance scientific interactions and reinforce the scientific training corpora that will be  used on Aurora GPT.  
 
 ## Reading
 Here, I'll put a few recent papers or articles that caught my eye.  Some focus on ML/DL methods or new architectures.  Some focus on stellar feedback or evolution.
@@ -32,6 +30,8 @@ Here, I'll put a few recent papers or articles that caught my eye.  Some focus o
 
 ## Research Activities
 * Long-context Transformers for genomic applications
+* AuroraGPT: Post-pretraining model tuning and instruction generation
+* Generative models for cosmology and astrophysics
 * Physically motivated stellar feedback models
 * External Enrichment of Minihalos by the First Supernovae
 * Predicting Primordial Star Formation with Deep Convolutional Neural Networks
@@ -39,7 +39,7 @@ Here, I'll put a few recent papers or articles that caught my eye.  Some focus o
 * The Phoenix Dataset: Primordial Star Formation in Cosmological Simulations
 
 ## Tools
-The tools of my trade.  There's a lot of ways to accomplish astrophysics simulations and deep learning, these are just the ones I use.
+The tools of my trade.  There's a lot of ways to accomplish my multi-disciplinary work, but these are the ones I've used and worked with most.
 * Simulations: 
     * [Enzo](https://github.com/enzo-project/)
     * [Grackle](https://grackle.readthedocs.io/en/latest)
@@ -47,8 +47,16 @@ The tools of my trade.  There's a lot of ways to accomplish astrophysics simulat
 * Numerics, data generation and analysis: Python, NumPy, Pandas, HDF5, and the usual data science suspects.
 * Defining models, one-off testing: [Pytorch](https://pytorch.org)
 * Training: sometimes [Pytorch Lightning](https://www.pytorchlightning.ai) and sometimes just Pytorch
+* Huggingface Transformers: [Transformers](https://huggingface.co/transformers)
+* Huggingface Accelerate: [Accelerate](https://huggingface.co/accelerate)
+* [TRL](https://docs.vllm.ai/en/stable/)
+* [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
+* [Deepspeed](https://www.deepspeed.ai)
+* [vLLM](https://docs.vllm.ai/en/stable/)
 * Computers: 
   * [Polaris](https://www.alcf.anl.gov/polaris)
+  * [Frontier](https://www.olcf.ornl.gov/frontier/)
+  * [Aurora](https://www.alcf.anl.gov/aurora)
   * [SambaNova and Cerebras AI accelerator systems](https://www.alcf.anl.gov/alcf-ai-testbed) 
   * [Expanse](https://www.sdsc.edu/support/user_guides/expanse.html)
   * [Comet (RIP)](https://www.sdsc.edu/support/user_guides/comet.html) 
