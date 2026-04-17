@@ -1,0 +1,16 @@
+# Manual overrides for the arXiv author disambiguation.
+#
+# Each run of `tools/works/update.py`:
+#   - auto-includes any paper where an author string exactly matches
+#     "Azton Wells" or "Azton I. Wells" (case-insensitive). Disambiguation is
+#     trivial because of the distinctive middle initial.
+#   - marks ambiguous matches (e.g. "A. Wells", "A I Wells" alone) as
+#     `needs_review`. They're not published on the page until you add them to
+#     `include:` below.
+#
+# Use `include:` to force-add a paper (bare short-form id, no "arxiv:" prefix).
+# Use `exclude:` to suppress a paper the auto-include rule caught by mistake.
+
+include: []
+
+exclude: []

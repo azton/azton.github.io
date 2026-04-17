@@ -1,5 +1,7 @@
 - title: Home
   url: /
+- title: My Work
+  url: /my-work/
 - title: LLM Information
   url: /llm-science/
 - title: Conferences
