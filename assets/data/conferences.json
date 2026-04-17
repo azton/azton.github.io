@@ -6,772 +6,102 @@
   "entries": [
     {
       "approximate": false,
-      "deadline_note": null,
-      "end": "2026-04-18",
-      "full_name": "12th Gulf Coast Gravity Meeting (GCGM12)",
-      "id": "inspire-3111326",
-      "location": "Troy, United States",
-      "name": "12th Gulf Coast Gravity Meeting (GCGM12)",
-      "source": "inspire-hep",
-      "start": "2026-04-17",
-      "submission_deadline": null,
+      "deadline_note": "Paper submission deadline (AoE); abstract due 2026-05-04",
+      "end": "2026-12-12",
+      "full_name": "Conference on Neural Information Processing Systems",
+      "id": "ai-deadlines:neurips26",
+      "location": "Sydney, Australia",
+      "name": "NeurIPS 2026",
+      "source": "ai-deadlines",
+      "start": "2026-12-06",
+      "submission_deadline": "2026-05-06",
       "tags": [
-        "astro",
         "conference",
-        "cosmo"
+        "machine-learning",
+        "ml"
       ],
-      "url": "https://spectrum.troy.edu/crc/GCGM%202026.html"
+      "url": "https://neurips.cc/"
+    },
+    {
+      "approximate": false,
+      "deadline_note": "Full paper submission deadline (AoE); abstract due 2026-05-16",
+      "end": "2026-11-11",
+      "full_name": "Conference on Information and Knowledge Management",
+      "id": "ai-deadlines:cikm26",
+      "location": "Rome, Italy",
+      "name": "CIKM 2026",
+      "source": "ai-deadlines",
+      "start": "2026-11-07",
+      "submission_deadline": "2026-05-23",
+      "tags": [
+        "conference",
+        "data-mining",
+        "machine-learning",
+        "ml",
+        "web-search"
+      ],
+      "url": "https://cikm2026.diag.uniroma1.it/"
+    },
+    {
+      "approximate": false,
+      "deadline_note": "Paper submission deadline (AoE)",
+      "end": "2026-10-29",
+      "full_name": "The annual Conference on Empirical Methods in Natural Language Processing",
+      "id": "ai-deadlines:emnlp26",
+      "location": "Budapest, Hungary",
+      "name": "EMNLP 2026",
+      "source": "ai-deadlines",
+      "start": "2026-10-24",
+      "submission_deadline": "2026-05-25",
+      "tags": [
+        "conference",
+        "ml",
+        "natural-language-processing"
+      ],
+      "url": "https://2026.emnlp.org/"
     },
     {
       "approximate": false,
       "deadline_note": null,
-      "end": "2026-09-21",
-      "full_name": "26th Hellenic School and Workshops on Elementary Particle Physics and Gravity (CORFU2026)",
-      "id": "inspire-3112465",
-      "location": "Corfu, Greece",
-      "name": "CORFU",
-      "source": "inspire-hep",
-      "start": "2026-04-19",
+      "end": "2026-04-27",
+      "full_name": "The Fourteenth International Conference on Learning Representations",
+      "id": "ai-deadlines:iclr26",
+      "location": "Rio de Janeiro, Brazil",
+      "name": "ICLR 2026",
+      "source": "ai-deadlines",
+      "start": "2026-04-23",
       "submission_deadline": null,
       "tags": [
+        "computer-vision",
         "conference",
-        "cosmo"
+        "data-mining",
+        "machine-learning",
+        "mathematics",
+        "ml",
+        "natural-language-processing",
+        "reinforcement-learning",
+        "representation-learning",
+        "robotics"
       ],
-      "url": "https://www.physics.ntua.gr/corfu2026/index.html"
+      "url": "https://iclr.cc/Conferences/2026"
     },
     {
       "approximate": false,
       "deadline_note": null,
-      "end": "2026-04-22",
-      "full_name": "Cosmological Features on the Largest Scales: Theory and Observations",
-      "id": "inspire-3113224",
-      "location": "Preston, United Kingdom",
-      "name": "Cosmological Features on the Largest Scales: Theory and Obse",
-      "source": "inspire-hep",
-      "start": "2026-04-20",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.star.uclan.ac.uk/ox-lancs-2026/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-04-22",
-      "full_name": "Cosmological Features on the Largest Scales: Theory and Observations",
-      "id": "inspire-3125506",
-      "location": "Preston, United Kingdom",
-      "name": "OxLancs",
-      "source": "inspire-hep",
-      "start": "2026-04-20",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.star.uclan.ac.uk/ox-lancs-2026/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-04-22",
-      "full_name": "Loops & Geometry: Hidden Structures in Multi-loop Amplitudes",
-      "id": "inspire-3118769",
-      "location": "Online, Neutral Zone",
-      "name": "MITPyoungst@rs Virtual Workshop",
-      "source": "inspire-hep",
-      "start": "2026-04-20",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.mitp.uni-mainz.de/event/467/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-04-24",
-      "full_name": "Dark Energy from Home 2026",
-      "id": "inspire-3125642",
-      "location": "Online Conference, Neutral Zone",
-      "name": "DEfH26",
-      "source": "inspire-hep",
-      "start": "2026-04-21",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://darkenergy.discussingresearch.com/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-04-24",
-      "full_name": "Observers and Causality in Quantum Gravity",
-      "id": "inspire-3123800",
-      "location": "Bratislava, Slovakia",
-      "name": "Observers and Causality in Quantum Gravity",
-      "source": "inspire-hep",
-      "start": "2026-04-21",
+      "end": "2026-05-05",
+      "full_name": "International Conference on Artificial Intelligence and Statistics",
+      "id": "ai-deadlines:aistats26",
+      "location": "Tangier, Morocco",
+      "name": "AISTATS 2026",
+      "source": "ai-deadlines",
+      "start": "2026-05-02",
       "submission_deadline": null,
       "tags": [
         "conference",
-        "cosmo"
+        "machine-learning",
+        "ml"
       ],
-      "url": "https://quantum.physics.sk/ocqg2026/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-04-24",
-      "full_name": "GRaviCon2026",
-      "id": "inspire-3123819",
-      "location": "Italy",
-      "name": "GRaviCon",
-      "source": "inspire-hep",
-      "start": "2026-04-22",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://agenda.infn.it/event/49413/overview"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-04-24",
-      "full_name": "20th Iberian Cosmology Meeting",
-      "id": "inspire-3111929",
-      "location": "Granada, Spain",
-      "name": "IberiCos 2026",
-      "source": "inspire-hep",
-      "start": "2026-04-22",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://ftae.ugr.es/ibericos26"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-04-30",
-      "full_name": "Progress on Old and New Themes in cosmology 2026",
-      "id": "inspire-3082154",
-      "location": "Avignon, France",
-      "name": "PONT 2026",
-      "source": "inspire-hep",
-      "start": "2026-04-27",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/e/PONT2026"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-01",
-      "full_name": "Gravity2026: New Frontiers in Cosmology",
-      "id": "inspire-3100115",
-      "location": "Daejeon, South Korea",
-      "name": "Gravity2026: New Frontiers in Cosmology",
-      "source": "inspire-hep",
-      "start": "2026-04-27",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.ibs.re.kr/e/gravity2026"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-04-29",
-      "full_name": "Cosmological Frontiers in Fundamental Physics 2026",
-      "id": "inspire-3121570",
-      "location": "Waterloo, Canada",
-      "name": "Triangular Conference on Cosmological Frontiers in Fundamental Physics",
-      "source": "inspire-hep",
-      "start": "2026-04-27",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://events.perimeterinstitute.ca/event/1540/overview"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-08",
-      "full_name": "Sustainability Conference for Responsible Research Computing",
-      "id": "inspire-3087382",
-      "location": "Geneva, Switzerland",
-      "name": "SC4RC 2026",
-      "source": "inspire-hep",
-      "start": "2026-05-04",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://sc4rc.org"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-08",
-      "full_name": "Gravitational Waves from Amplitudes",
-      "id": "inspire-3143904",
-      "location": "Geneva, Switzerland",
-      "name": "Gravitational Waves from Amplitudes",
-      "source": "inspire-hep",
-      "start": "2026-05-04",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/event/1624022/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-08",
-      "full_name": "UniVersum VII -- Naples 2026",
-      "id": "inspire-3112694",
-      "location": "Naples, Italy",
-      "name": "UniVersum",
-      "source": "inspire-hep",
-      "start": "2026-05-06",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://universum.to.infn.it"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-08",
-      "full_name": "20. Kosmologietag",
-      "id": "inspire-3123836",
-      "location": "Bielefeld, Germany",
-      "name": "20. Kosmologietag",
-      "source": "inspire-hep",
-      "start": "2026-05-06",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.physik.uni-bielefeld.de/event/302/overview"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-15",
-      "full_name": "Rencontres de Blois",
-      "id": "inspire-3108498",
-      "location": "Blois, France",
-      "name": "Blois 2026",
-      "source": "inspire-hep",
-      "start": "2026-05-10",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://blois.in2p3.fr/2026"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-15",
-      "full_name": "SCALE 2026: Strings & Cosmology \u2013 All Lengths Explored",
-      "id": "inspire-3078603",
-      "location": "Tenerife, Spain",
-      "name": "SCALE",
-      "source": "inspire-hep",
-      "start": "2026-05-11",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://meetings.iac.es/scale2026"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-15",
-      "full_name": "Phenomenology of Strong Gravity 2026",
-      "id": "inspire-3112251",
-      "location": "Astana, Kazakhstan",
-      "name": "PSG2026",
-      "source": "inspire-hep",
-      "start": "2026-05-11",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://ecl.nu.edu.kz/conference-2026/psg"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-15",
-      "full_name": "XXII LNF Spring School \u201cBruno Touschek\u201d in Nuclear, Subnuclear and Astroparticle Physics",
-      "id": "inspire-3125881",
-      "location": "INFN Frascati, Italy",
-      "name": "XXII LNF Spring School \u201cBruno Touschek\u201d in Nuclear, Subnucle",
-      "source": "inspire-hep",
-      "start": "2026-05-11",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://www.lnf.infn.it/conference/lnfss/26/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-15",
-      "full_name": "preSUSY2026",
-      "id": "inspire-2972345",
-      "location": "Norman, United States",
-      "name": "preSUSY2026",
-      "source": "inspire-hep",
-      "start": "2026-05-12",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://inspirehep.net/conferences/2972345"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-15",
-      "full_name": "Structure and Energy in the Universe",
-      "id": "inspire-3113221",
-      "location": "Astana, Kazakhstan",
-      "name": "SEU2026",
-      "source": "inspire-hep",
-      "start": "2026-05-13",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://ecl.nu.edu.kz/conference-2026/seu"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-22",
-      "full_name": "Planck2026 & 6th EuCAPT Symposium",
-      "id": "inspire-3085618",
-      "location": "Geneva, Switzerland",
-      "name": "PLANCK, EuCAPT",
-      "source": "inspire-hep",
-      "start": "2026-05-18",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/event/1552644/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-22",
-      "full_name": "Observers, wormholes and complex saddles in cosmology",
-      "id": "inspire-3065507",
-      "location": "Lausanne, Switzerland",
-      "name": "Observers, wormholes and complex saddles in cosmology",
-      "source": "inspire-hep",
-      "start": "2026-05-18",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.epfl.ch/e/observers"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-20",
-      "full_name": "TORSION",
-      "id": "inspire-3111327",
-      "location": "Mexico City, Mexico",
-      "name": "Tests Of Relativity with Spin InteractiONs",
-      "source": "inspire-hep",
-      "start": "2026-05-18",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.nucleares.unam.mx/torsion/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-23",
-      "full_name": "11th International Conference Compact Stars in the QCD phase diagram",
-      "id": "inspire-2944512",
-      "location": "Institute of Space Sciences, Spain",
-      "name": "CSQCD2026",
-      "source": "inspire-hep",
-      "start": "2026-05-19",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://workshops.ice.csic.es/event/6/overview"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-23",
-      "full_name": "The 8th International Workshop on the TianQin Science Mission\uff08TQ8\uff09",
-      "id": "inspire-3084631",
-      "location": "National University of Singapore, Singapore",
-      "name": "International Workshop on the TianQin Science Mission",
-      "source": "inspire-hep",
-      "start": "2026-05-22",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://tianqin.sysu.edu.cn/en/tq8"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-29",
-      "full_name": "EREP 2026 - Spanish-Portuguese Relativity Meeting 2026",
-      "id": "inspire-3119184",
-      "location": "Murcia, Spain",
-      "name": "EREP 2026",
-      "source": "inspire-hep",
-      "start": "2026-05-25",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/e/erep2026"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-05-29",
-      "full_name": "@FlipPhysics 2026",
-      "id": "inspire-2940486",
-      "location": "Valencia, Spain",
-      "name": "@FlipPhysics",
-      "source": "inspire-hep",
-      "start": "2026-05-26",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.ific.uv.es/event/7396/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-05",
-      "full_name": "16th International Workshop on the Identification of Dark Matter 2026",
-      "id": "inspire-2933419",
-      "location": "Zaragoza, Spain",
-      "name": "IDM 2026",
-      "source": "inspire-hep",
-      "start": "2026-06-01",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://inspirehep.net/conferences/2933419"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-05",
-      "full_name": "Workshop \"Expanding Thoughts on de Sitter\"",
-      "id": "inspire-3109112",
-      "location": "As Barreiras, Spain",
-      "name": "Workshop \"Expanding Thoughts on de Sitter\"",
-      "source": "inspire-hep",
-      "start": "2026-06-01",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.sns.it/event/129/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-05",
-      "full_name": "13th LISA Cosmology workshop",
-      "id": "inspire-3145443",
-      "location": "Barcelona, Spain",
-      "name": "13th LISA Cosmology workshop",
-      "source": "inspire-hep",
-      "start": "2026-06-01",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.icc.ub.edu/event/677/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-05",
-      "full_name": "Vacuum Decay and Matter Production: From Intense Lasers to Curved Spacetimes and Analogue Platforms",
-      "id": "inspire-3131281",
-      "location": "Rue Joseph Graf\u00e9 2, 5000 Namur, Belgium",
-      "name": "Vacuum Decay and Matter Production: From Intense Lasers to C",
-      "source": "inspire-hep",
-      "start": "2026-06-04",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://inspirehep.net/conferences/3131281"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-11",
-      "full_name": "CAU-IBS Beyond the Standard Model Workshop",
-      "id": "inspire-3138770",
-      "location": "Seoul, South Korea",
-      "name": "CAU-BSM",
-      "source": "inspire-hep",
-      "start": "2026-06-07",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/event/1658076/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-12",
-      "full_name": "16th International Conference on Beauty, Charm, Hyperons in Hadronic Interactions",
-      "id": "inspire-2964459",
-      "location": "Florence, Italy",
-      "name": "BEACH2026",
-      "source": "inspire-hep",
-      "start": "2026-06-08",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.cern.ch/event/1537617/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-11",
-      "full_name": "11th International Workshop on Acoustic and Radio EeV Neutrino Detection Activities",
-      "id": "inspire-3098540",
-      "location": "Karlsruhe, Germany",
-      "name": "ARENA2026",
-      "source": "inspire-hep",
-      "start": "2026-06-08",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.kit.edu/e/arena2026"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-10",
-      "full_name": "4th Joint ECFA-NuPECC-APPEC Activity Workshop \"Synergies between the EIC and the LHC\"",
-      "id": "inspire-3105639",
-      "location": "Cagliari, Italy",
-      "name": "4th Joint ECFA-NuPECC-APPEC Activity Workshop \"Synergies bet",
-      "source": "inspire-hep",
-      "start": "2026-06-08",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://agenda.infn.it/event/49145/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-12",
-      "full_name": "Athens Symposium on Exploring the Universe",
-      "id": "inspire-3115236",
-      "location": "National Technical University of Athens, Athens, Greece",
-      "name": "ATHEXIS 2026",
-      "source": "inspire-hep",
-      "start": "2026-06-08",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "http://physics.ntua.gr/Athexis/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-19",
-      "full_name": "ISAPP Doctoral School : High-Energy Astrophysics: Sources and Detection",
-      "id": "inspire-3120082",
-      "location": "Gif-sur-Yvette, France, Metropolitan",
-      "name": "ISAPP",
-      "source": "inspire-hep",
-      "start": "2026-06-08",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.ijclab.in2p3.fr/event/12254/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-12",
-      "full_name": "12th International Conference on Clustering Aspects of Nuclear Structure and Dynamics",
-      "id": "inspire-3122709",
-      "location": "London, United Kingdom",
-      "name": "Cluster'26",
-      "source": "inspire-hep",
-      "start": "2026-06-08",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://iop.eventsair.com/clusters26/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-12",
-      "full_name": "GR effects in \u039bSS Workshop",
-      "id": "inspire-3117919",
-      "location": "Old Prison of Aegina, Greece",
-      "name": "GR Effects in LSS",
-      "source": "inspire-hep",
-      "start": "2026-06-08",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/e/greffectsAegina"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-12",
-      "full_name": "Lotus & Swamplandia 2026",
-      "id": "inspire-3076342",
-      "location": "Catania, Italy",
-      "name": "Lotus & Swamplandia 2026",
-      "source": "inspire-hep",
-      "start": "2026-06-09",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.swamplandia.com/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-18",
-      "full_name": "Galactic\u00a0Frontiers\u00a02026:\u00a0Advancing\u00a0X\u2010Ray\u00a0 Astronomy\u00a0in\u00a0a\u00a0Multiwavelength\u00a0Universe",
-      "id": "inspire-3108423",
-      "location": "Bad Honnef, Germany",
-      "name": "WE Heraeus Seminar",
-      "source": "inspire-hep",
-      "start": "2026-06-14",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://www.we-heraeus-stiftung.de/veranstaltungen/galactic-frontiers-2026-advancing-x-ray-astronomy-in-a-multiwavelength-universe/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-20",
-      "full_name": "13th European Summer School on Experimental Nuclear Astrophysics",
-      "id": "inspire-3109704",
-      "location": "Aci Trezza (Catania), Italy",
-      "name": "Essena 26",
-      "source": "inspire-hep",
-      "start": "2026-06-14",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://agenda.infn.it/event/48509/"
+      "url": "https://virtual.aistats.org/Conferences/2026"
     },
     {
       "approximate": false,
@@ -795,77 +125,6 @@
       "approximate": false,
       "deadline_note": null,
       "end": "2026-06-19",
-      "full_name": "Black Holes & Cosmology 2026",
-      "id": "inspire-3117089",
-      "location": "Granada, Spain",
-      "name": "BHCos26",
-      "source": "inspire-hep",
-      "start": "2026-06-15",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.mpp.mpg.de/e/BHCos26"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-26",
-      "full_name": "School on Astroparticle and Multi-messenger \u202c\u202dAstrophysics",
-      "id": "inspire-3119186",
-      "location": "S\u00e3o Paulo, Brazil",
-      "name": "School on Astroparticle and Multi-messenger \u202c\u202dAstrophysics",
-      "source": "inspire-hep",
-      "start": "2026-06-15",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://www.ictp-saifr.org/samma2026/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-18",
-      "full_name": "16th Particle Physics Phenomenology Workshop (PPP16)",
-      "id": "inspire-3130427",
-      "location": "Hsinchu City, Taiwan",
-      "name": "PPP",
-      "source": "inspire-hep",
-      "start": "2026-06-15",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.phys.nthu.edu.tw/event/173/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-19",
-      "full_name": "BiCoQ conference: from gravity to particles",
-      "id": "inspire-3139029",
-      "location": "Milan, Italy",
-      "name": "BiCoQ conference: from gravity to particles",
-      "source": "inspire-hep",
-      "start": "2026-06-15",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/16054"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-19",
       "full_name": "Theoretical Development in Gravitational Wave Physics",
       "id": "inspire-3123771",
       "location": "Kyoto, Japan",
@@ -878,93 +137,6 @@
         "cosmo"
       ],
       "url": "https://indico.yukawa.kyoto-u.ac.jp/event/87/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-19",
-      "full_name": "XVI Workshop on Geometric Correspondences of Gauge Theories",
-      "id": "inspire-3140496",
-      "location": "Trieste, Italy",
-      "name": "XVI Workshop on Geometric Correspondences of Gauge Theories",
-      "source": "inspire-hep",
-      "start": "2026-06-15",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.sissa.it/event/186/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-18",
-      "full_name": "Primordial Non-Gaussianities in Fundamental Physics (Croucher Advanced Study Institute 2026)",
-      "id": "inspire-3104619",
-      "location": "Hong Kong, Hong Kong",
-      "name": "ASI2026",
-      "source": "inspire-hep",
-      "start": "2026-06-16",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/16495/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-18",
-      "full_name": "de Sitter Holography Meets Non-Hermitian Quantum Matter",
-      "id": "inspire-3144003",
-      "location": "Tokyo(Saitama), Japan",
-      "name": "de Sitter Holography Meets Non-Hermitian Quantum Matter",
-      "source": "inspire-hep",
-      "start": "2026-06-16",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://sites.google.com/view/riken2026?usp=sharing"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-20",
-      "full_name": "4th Training School of the COST Action CA21106: Cosmic WISPers",
-      "id": "inspire-3072918",
-      "location": "Corfu, Greece",
-      "name": "Part of Cosmic WISPers serie",
-      "source": "inspire-hep",
-      "start": "2026-06-17",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://inspirehep.net/conferences/3072918"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-26",
-      "full_name": "16th International LISA Symposium",
-      "id": "inspire-3123560",
-      "location": "College Park, United States",
-      "name": "LISA2016",
-      "source": "inspire-hep",
-      "start": "2026-06-21",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://lisa-2026.astro.umd.edu/"
     },
     {
       "approximate": false,
@@ -986,598 +158,77 @@
     {
       "approximate": false,
       "deadline_note": null,
-      "end": "2026-06-25",
-      "full_name": "4th General Meeting of the COST Action: Cosmic WISPers (CA21106)",
-      "id": "inspire-3072917",
-      "location": "Corfu', Greece",
-      "name": "Part of the COSMIC WISPers series",
-      "source": "inspire-hep",
-      "start": "2026-06-22",
+      "end": "2026-07-07",
+      "full_name": "Annual Meeting of the Association for Computational Linguistics",
+      "id": "ai-deadlines:acl26",
+      "location": "San Diego, USA",
+      "name": "ACL 2026",
+      "source": "ai-deadlines",
+      "start": "2026-07-02",
       "submission_deadline": null,
       "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://inspirehep.net/conferences/3072917"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-26",
-      "full_name": "31st International Symposium on Particles, Strings, and Cosmology (PASCOS 2026)",
-      "id": "inspire-3083381",
-      "location": "Sheffield, United Kingdom",
-      "name": "PASCOS",
-      "source": "inspire-hep",
-      "start": "2026-06-22",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
         "conference",
-        "cosmo"
+        "ml",
+        "natural-language-processing"
       ],
-      "url": "https://indico.global/event/14705/overview"
+      "url": "https://2026.aclweb.org/"
     },
     {
       "approximate": false,
       "deadline_note": null,
       "end": "2026-07-04",
-      "full_name": "10th edition of Students\u2019 Talks on Trending Topics in Theory",
-      "id": "inspire-3121499",
-      "location": "Chennai, India",
-      "name": "ST4",
-      "source": "inspire-hep",
-      "start": "2026-06-22",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://sites.google.com/view/st4-2026/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-26",
-      "full_name": "SCALES 1st General Meeting - Superfluid Condensates in Astrophysics and Laboratory Experiments",
-      "id": "inspire-3128018",
-      "location": "Coimbra, Portugal",
-      "name": "SCALES 1st General Meeting - Superfluid Condensates in Astro",
-      "source": "inspire-hep",
-      "start": "2026-06-22",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.global/event/17311/overview"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-26",
-      "full_name": "Vatican Observatory Lectures on Quantum Gravity 2026",
-      "id": "inspire-3093798",
-      "location": "Albano Laziale, Italy",
-      "name": "Vatican Observatory Lectures on Quantum Gravity 2026",
-      "source": "inspire-hep",
-      "start": "2026-06-22",
+      "full_name": "The SIGNLL Conference on Computational Natural Language Learning",
+      "id": "ai-deadlines:conll26",
+      "location": "San Diego, USA",
+      "name": "CoNLL 2026",
+      "source": "ai-deadlines",
+      "start": "2026-07-03",
       "submission_deadline": null,
       "tags": [
         "conference",
-        "cosmo"
+        "ml",
+        "natural-language-processing"
       ],
-      "url": "https://indico.global/event/16082/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-06-26",
-      "full_name": "Quantum and classical gravity in low-energy quantum systems",
-      "id": "inspire-3122241",
-      "location": "Belgrade, Serbia",
-      "name": "Quantum and classical gravity in low-energy quantum systems",
-      "source": "inspire-hep",
-      "start": "2026-06-22",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://agenda.infn.it/event/49800/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-03",
-      "full_name": "860th WE Heraeus Seminar",
-      "id": "inspire-3127948",
-      "location": "Bad Honnef, Germany",
-      "name": "WE Heraeus Seminar",
-      "source": "inspire-hep",
-      "start": "2026-06-28",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.we-heraeus-stiftung.de/veranstaltungen/past-present-and-future-of-reverse-monte-carlo-modeling-recent-challenges-in-determining-structure-property-relationship-in-materials/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-24",
-      "full_name": "Primordial Cosmology: Novel Perspectives from Scattering Amplitudes, Holography and the Bootstrap",
-      "id": "inspire-2939006",
-      "location": "Munich, Germany",
-      "name": "Primordial Cosmology: Novel Perspectives from Scattering Amp",
-      "source": "inspire-hep",
-      "start": "2026-06-29",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://www.munich-iapbp.de/primordial-cosmology"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-03",
-      "full_name": "The Cosmic Neutrino Practicum",
-      "id": "inspire-3112497",
-      "location": "Cambridge, United States",
-      "name": "CNP2026",
-      "source": "inspire-hep",
-      "start": "2026-06-29",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://harvard-neutrinos.rc.fas.harvard.edu/event/30/overview"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-03",
-      "full_name": "Contours 2026 - Effective Field Theories Meet the Schwinger-Keldysh Formalism",
-      "id": "inspire-3113663",
-      "location": "Cambridge, United Kingdom",
-      "name": "Contours 2026 - Effective Field Theories Meet the Schwinger-",
-      "source": "inspire-hep",
-      "start": "2026-06-29",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/16432/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-10",
-      "full_name": "17th International Neutrino Summer School 2026",
-      "id": "inspire-3117085",
-      "location": "Santa Barbara, United States",
-      "name": "INSS",
-      "source": "inspire-hep",
-      "start": "2026-06-29",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.global/event/16507/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-03",
-      "full_name": "\u202dThird generation gravitational wave detectors: the view from Latin America",
-      "id": "inspire-3142452",
-      "location": "S\u00e3o Paulo, Brazil",
-      "name": "\u202dThird generation gravitational wave detectors: the view fro",
-      "source": "inspire-hep",
-      "start": "2026-06-29",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.ictp-saifr.org/3gw4la/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-03",
-      "full_name": "25th String Phenomenology 2026 (SP26)",
-      "id": "inspire-2953340",
-      "location": "Paris, France",
-      "name": "StringPheno",
-      "source": "inspire-hep",
-      "start": "2026-06-29",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://inspirehep.net/conferences/2953340"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-03",
-      "full_name": "Tales of Black Holes",
-      "id": "inspire-3092450",
-      "location": "Granada, Spain",
-      "name": "TBH26",
-      "source": "inspire-hep",
-      "start": "2026-06-29",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://talesofblackholes.iaa.csic.es"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-04",
-      "full_name": "5th MaNiTou school on gravitational-waves physics and astronomy",
-      "id": "inspire-3123085",
-      "location": "Nice, France, Metropolitan",
-      "name": "MaNiTou Summer School",
-      "source": "inspire-hep",
-      "start": "2026-06-29",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.in2p3.fr/event/36972/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-03",
-      "full_name": "3rd generation gravitational wave detectors: the view from Latin America",
-      "id": "inspire-3124904",
-      "location": "Sao Paulo, Brazil",
-      "name": "3rd generation gravitational wave detectors: the view from L",
-      "source": "inspire-hep",
-      "start": "2026-06-29",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.ictp-saifr.org/3gw4la/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-08",
-      "full_name": "Strings 2026",
-      "id": "inspire-2964281",
-      "location": "Shanghai, China",
-      "name": "Strings",
-      "source": "inspire-hep",
-      "start": "2026-07-04",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://strings2026.simis.cn"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-09",
-      "full_name": "Cosmology & Particle Astrophysics 2026 and 13th Australasian Conference on General Relativity & Gravitation",
-      "id": "inspire-3108507",
-      "location": "Christchurch, New Zealand",
-      "name": "CosPA2026 / ACGRG13",
-      "source": "inspire-hep",
-      "start": "2026-07-05",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.canterbury.ac.nz/news-and-events/events/2025/cospa2026-acgrg13v-"
+      "url": "https://conll.org/"
     },
     {
       "approximate": false,
       "deadline_note": null,
       "end": "2026-07-11",
-      "full_name": "Asian Gravitational Wave Astronomy Meeting 2026",
-      "id": "inspire-3143969",
-      "location": "Chiang-Mai, Thailand",
-      "name": "AGWAM-2026",
-      "source": "inspire-hep",
-      "start": "2026-07-05",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.narit.or.th/e/agwam2026"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-31",
-      "full_name": "Exploring New Frontiers in Cosmology",
-      "id": "inspire-3069923",
-      "location": "Florence, Italy",
-      "name": "GGI Workshop",
-      "source": "inspire-hep",
+      "full_name": "International Conference on Machine Learning",
+      "id": "ai-deadlines:icml26",
+      "location": "Seoul, South Korea",
+      "name": "ICML 2026",
+      "source": "ai-deadlines",
       "start": "2026-07-06",
       "submission_deadline": null,
       "tags": [
-        "astro",
         "conference",
-        "cosmo"
+        "machine-learning",
+        "ml"
       ],
-      "url": "https://www.ggi.infn.it/showevent.pl?id=547"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-10",
-      "full_name": "Syncretism 2026",
-      "id": "inspire-3114000",
-      "location": "Chania, Greece",
-      "name": "SynCRETism",
-      "source": "inspire-hep",
-      "start": "2026-07-06",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://syncretism.physics.uoc.gr/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-17",
-      "full_name": "2026 IHES Summer School - Cosmological Correlators",
-      "id": "inspire-3117252",
-      "location": "Bures-sur-Yvette, France",
-      "name": "2026 IHES Summer School - Cosmological Correlators",
-      "source": "inspire-hep",
-      "start": "2026-07-06",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.math.cnrs.fr/event/15597/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-09",
-      "full_name": "Bridging high and low energies in search of quantum gravity",
-      "id": "inspire-3127195",
-      "location": "Varna, Bulgaria",
-      "name": "BridgeQG 2026",
-      "source": "inspire-hep",
-      "start": "2026-07-06",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://agenda.infn.it/event/50800/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-10",
-      "full_name": "Sustainable HEP 2026 \u2014 5th Edition",
-      "id": "inspire-3109677",
-      "location": "Online, United Kingdom",
-      "name": "Sustainable HEP",
-      "source": "inspire-hep",
-      "start": "2026-07-08",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/e/susthep26"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-15",
-      "full_name": "Dark Matter and Stars: Multi-Messenger Probes of Dark Matter and Modified Gravity",
-      "id": "inspire-3088913",
-      "location": "Southampton, United Kingdom",
-      "name": "icdms2026",
-      "source": "inspire-hep",
-      "start": "2026-07-13",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/event/1596704/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-17",
-      "full_name": "Sixth Zeldovich meeting",
-      "id": "inspire-3133165",
-      "location": "Pescara, Italy",
-      "name": "Zeldovich6",
-      "source": "inspire-hep",
-      "start": "2026-07-13",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.icranet.org/event/11/"
+      "url": "https://icml.cc/Conferences/2026/CallForPapers"
     },
     {
       "approximate": false,
       "deadline_note": null,
       "end": "2026-07-24",
-      "full_name": "HISS2026, Particles Strings and Cosmology 2026",
-      "id": "inspire-3138709",
-      "location": "Hamburg, Germany",
-      "name": "HISS2026",
-      "source": "inspire-hep",
-      "start": "2026-07-13",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.desy.de/event/52486/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-17",
-      "full_name": "Integrability, Dualities and Deformations 2026",
-      "id": "inspire-3109709",
-      "location": "Wroclaw, Poland",
-      "name": "Integrability, Dualities and Deformations (IDD)",
-      "source": "inspire-hep",
-      "start": "2026-07-13",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/e/IDD2026"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-24",
-      "full_name": "Tri-Institute Summer School on Elementary Particles 2026 (TRISEP 2026)",
-      "id": "inspire-3122791",
-      "location": "Waterloo, Canada",
-      "name": "TRISEP",
-      "source": "inspire-hep",
-      "start": "2026-07-13",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://events.perimeterinstitute.ca/e/TRISEP2026"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-17",
-      "full_name": "Black Hole Horizons and Beyond: New Frontiers in Gravity and Holography",
-      "id": "inspire-3128282",
-      "location": "Durham, United Kingdom",
-      "name": "Black Hole Horizons and Beyond: New Frontiers in Gravity and",
-      "source": "inspire-hep",
-      "start": "2026-07-15",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/17195/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-23",
-      "full_name": "12th Summer School in Particle and Astroparticle Physics",
-      "id": "inspire-3128015",
-      "location": "Annecy, France",
-      "name": "GRASPA2026",
-      "source": "inspire-hep",
-      "start": "2026-07-16",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.in2p3.fr/event/38720/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-31",
-      "full_name": "New Frontiers in Strong Gravity IV (2nd announcement)",
-      "id": "inspire-3132262",
-      "location": "Benasque, Spain",
-      "name": "New Frontiers in Strong Gravity IV (2nd announcement)",
-      "source": "inspire-hep",
-      "start": "2026-07-19",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://benasque.org/2026relativity/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-31",
-      "full_name": "Warming Up Cosmic Inflation: Its intricacies and Advantages",
-      "id": "inspire-3122228",
-      "location": "Sonepat, India",
-      "name": "Warming Up Cosmic Inflation: Its intricacies and Advantages",
-      "source": "inspire-hep",
+      "full_name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "id": "ai-deadlines:sigir26",
+      "location": "Melbourne, Australia",
+      "name": "SIGIR 2026",
+      "source": "ai-deadlines",
       "start": "2026-07-20",
       "submission_deadline": null,
       "tags": [
-        "astro",
         "conference",
-        "cosmo"
+        "data-mining",
+        "information-retrieval",
+        "ml",
+        "natural-language-processing",
+        "web-search"
       ],
-      "url": "https://www.meetings-workshops.com/warmingupcosmicinflation"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-07-31",
-      "full_name": "MITP Scientific Program: The Phenomenology of Primordial Black Holes",
-      "id": "inspire-3123090",
-      "location": "Mainz, Germany",
-      "name": "MITP Scientific Program: The Phenomenology of Primordial Bla",
-      "source": "inspire-hep",
-      "start": "2026-07-20",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.mitp.uni-mainz.de/event/452/"
+      "url": "https://sigir2026.org/en-AU"
     },
     {
       "approximate": false,
@@ -1600,244 +251,39 @@
     {
       "approximate": false,
       "deadline_note": null,
-      "end": "2026-07-31",
-      "full_name": "Light Dark World 2026",
-      "id": "inspire-3112311",
-      "location": "Ottawa, Canada",
-      "name": "LDW 2026",
-      "source": "inspire-hep",
-      "start": "2026-07-28",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/16618/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-05",
-      "full_name": "43rd International Conference on High Energy Physics",
-      "id": "inspire-2880224",
-      "location": "Natal, Brazil",
-      "name": "ICHEP 2026",
-      "source": "inspire-hep",
-      "start": "2026-07-30",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://ichep2026.org/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-11",
-      "full_name": "Petnica Summer Institute 2026: Summer School on Scientific Machine Learning",
-      "id": "inspire-3139318",
-      "location": "Petnica, Valjevo, Serbia",
-      "name": "PSI26-mlsci",
-      "source": "inspire-hep",
-      "start": "2026-08-01",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://psi.petnica.rs/2026_ml/description"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-11",
-      "full_name": "Petnica Summer Institute 2026: Summer School on Quantum Gravity and Quantum Chaos",
-      "id": "inspire-3129456",
-      "location": "Manastirska 49, Valjevo, Serbia",
-      "name": "PSI26-qgqc",
-      "source": "inspire-hep",
-      "start": "2026-08-01",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://psi.petnica.rs/2026_th/description"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-11",
-      "full_name": "Petnica Summer Institute 2026: Summer School on Dark Universe",
-      "id": "inspire-3129457",
-      "location": "Manastirska 49, Valjevo, Serbia",
-      "name": "PSI26-du",
-      "source": "inspire-hep",
-      "start": "2026-08-01",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://psi.petnica.rs/2026_ph/description"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-14",
-      "full_name": "XVI International Conference on Gravitation, Astrophysics and Cosmology (ICGAC16)",
-      "id": "inspire-2968290",
-      "location": "Shenzhen, China",
-      "name": "International Conference on Gravitation, Astrophysics and Cosmology",
-      "source": "inspire-hep",
-      "start": "2026-08-10",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://tianqin.sysu.edu.cn/en/ICGAC16-home"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-14",
-      "full_name": "54th SLAC Summer Institute",
-      "id": "inspire-3143905",
-      "location": "Menlo Park, United States",
-      "name": "SSI 2026",
-      "source": "inspire-hep",
-      "start": "2026-08-10",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.slac.stanford.edu/event/10437/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-21",
-      "full_name": "The Disordered Universe 2026",
-      "id": "inspire-3109119",
-      "location": "As Barreiras, Spain",
-      "name": "La Ricotta Summer School",
-      "source": "inspire-hep",
-      "start": "2026-08-10",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/16455/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
       "end": "2026-08-13",
-      "full_name": "Ljubljana RQI Workshop on Gravitational Quantum Physics and Metrology",
-      "id": "inspire-3128343",
-      "location": "Ljubljana, Slovenia",
-      "name": "Ljubljana RQI Workshop on Gravitational Quantum Physics and ",
-      "source": "inspire-hep",
-      "start": "2026-08-10",
+      "full_name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "id": "ai-deadlines:kdd26",
+      "location": "Jeju, Korea",
+      "name": "KDD 2026",
+      "source": "ai-deadlines",
+      "start": "2026-08-09",
       "submission_deadline": null,
       "tags": [
         "conference",
-        "cosmo"
+        "data-mining",
+        "machine-learning",
+        "ml"
       ],
-      "url": "https://inspirehep.net/conferences/3128343"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-13",
-      "full_name": "Ljubljana RQI Workshop",
-      "id": "inspire-3128289",
-      "location": "Ljubljana, Slovenia",
-      "name": "Ljubljana RQI Workshop",
-      "source": "inspire-hep",
-      "start": "2026-08-10",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://rqi.fmf.uni-lj.si/"
+      "url": "https://kdd2026.kdd.org/"
     },
     {
       "approximate": false,
       "deadline_note": null,
       "end": "2026-08-21",
-      "full_name": "53th International Symposium on Multiparticle Dynamics (ISMD 2026)",
-      "id": "inspire-3132282",
-      "location": "Chungli, Taoyuan City, Taiwan",
-      "name": "ISMD 2026",
-      "source": "inspire-hep",
-      "start": "2026-08-17",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.cern.ch/event/1593982/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-21",
-      "full_name": "9th International Conference on Holography, String Theory and Observational Cosmology in Chiang Mai",
-      "id": "inspire-3062706",
-      "location": "Chiang Mai, Thailand",
-      "name": "Holography, String Theory and Discrete Approach",
-      "source": "inspire-hep",
-      "start": "2026-08-17",
+      "full_name": "International Joint Conference on Artificial Intelligence",
+      "id": "ai-deadlines:ijcai26",
+      "location": "Bremen, Germany",
+      "name": "IJCAI 2026",
+      "source": "ai-deadlines",
+      "start": "2026-08-15",
       "submission_deadline": null,
       "tags": [
         "conference",
-        "cosmo"
+        "machine-learning",
+        "ml"
       ],
-      "url": "https://cms.kookmin.ac.kr/holography26/index.do"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-28",
-      "full_name": "PSI Particle Physics Summer School: Precision on the Edge",
-      "id": "inspire-3105189",
-      "location": "Morschach, Switzerland",
-      "name": "PSI Particle Physics Summer School: Precision on the Edge",
-      "source": "inspire-hep",
-      "start": "2026-08-23",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.psi.ch/event/18192/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-26",
-      "full_name": "Listening to the Cosmos: New Frontiers in Gravitational Wave Physics",
-      "id": "inspire-3075519",
-      "location": "Florence, Italy",
-      "name": "GGI Workshop",
-      "source": "inspire-hep",
-      "start": "2026-08-24",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.ggi.infn.it/showevent.pl?id=548"
+      "url": "https://2026.ijcai.org/"
     },
     {
       "approximate": false,
@@ -1860,59 +306,6 @@
     {
       "approximate": false,
       "deadline_note": null,
-      "end": "2026-08-28",
-      "full_name": "European AI for Fundamental Physics Conference",
-      "id": "inspire-3117087",
-      "location": "Heidelberg, Germany",
-      "name": "EuCAIFCon",
-      "source": "inspire-hep",
-      "start": "2026-08-24",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.physi.uni-heidelberg.de/event/1277/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-08-28",
-      "full_name": "From black holes to the cosmos: Matt Visser\u2019s journey through space and time",
-      "id": "inspire-3108720",
-      "location": "Trieste, Italy",
-      "name": "From black holes to the cosmos: Matt Visser\u2019s journey throug",
-      "source": "inspire-hep",
-      "start": "2026-08-24",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.sissa.it/event/175/overview"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-04",
-      "full_name": "IWARA2026 - 12th International Workshop on Astronomy and Relativistic Astrophysics",
-      "id": "inspire-3096816",
-      "location": "Mexico City, Mexico",
-      "name": "IWARA2026",
-      "source": "inspire-hep",
-      "start": "2026-08-31",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/16048/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
       "end": "2026-09-05",
       "full_name": "27th International Workshop on Neutrinos from Accelerators (NuFact2026)",
       "id": "inspire-3117910",
@@ -1926,24 +319,6 @@
         "conference"
       ],
       "url": "https://indico-tdli.sjtu.edu.cn/event/4693/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-06",
-      "full_name": "Neutrino Oscillation Workshop 2026",
-      "id": "inspire-3123797",
-      "location": "Otranto, Lecce, Italy",
-      "name": "NOW 2026",
-      "source": "inspire-hep",
-      "start": "2026-08-31",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.ba.infn.it/now"
     },
     {
       "approximate": false,
@@ -1983,75 +358,6 @@
     {
       "approximate": false,
       "deadline_note": null,
-      "end": "2026-09-04",
-      "full_name": "Alessandro Renzi",
-      "id": "inspire-3142446",
-      "location": "Jesi (AN), Italy",
-      "name": "Marche",
-      "source": "inspire-hep",
-      "start": "2026-08-31",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.dfa.unipd.it/event/1698"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-04",
-      "full_name": "14th International Conference on Position Sensitive Detectors",
-      "id": "inspire-3088726",
-      "location": "London, United Kingdom",
-      "name": "PSD14",
-      "source": "inspire-hep",
-      "start": "2026-09-01",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://psd14.ph.qmul.ac.uk/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-05",
-      "full_name": "13th International Conference on the Exact Renormalization Group",
-      "id": "inspire-3087271",
-      "location": "Brighton, United Kingdom",
-      "name": "ERG2026",
-      "source": "inspire-hep",
-      "start": "2026-09-01",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/16125/overview"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-11",
-      "full_name": "12th International Workshop on Semiconductor Pixel Detectors for Particles and Imaging (PIXEL2026)",
-      "id": "inspire-3086537",
-      "location": "Miyazaki city, Japan",
-      "name": "PIXEL2026",
-      "source": "inspire-hep",
-      "start": "2026-09-06",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.cern.ch/event/1519426/registrations/115684/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
       "end": "2026-09-10",
       "full_name": "Dynamics of Primordial Black Hole Formation III",
       "id": "inspire-3112270",
@@ -2070,211 +376,21 @@
     {
       "approximate": false,
       "deadline_note": null,
-      "end": "2026-09-11",
-      "full_name": "Cosmology by the Sea",
-      "id": "inspire-3109960",
-      "location": "Corfu, Greece",
-      "name": "Cosmology by the Sea",
-      "source": "inspire-hep",
-      "start": "2026-09-07",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/event/1635990/overview"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-14",
-      "full_name": "Next Frontiers in Magnetic Monopole Searches",
-      "id": "inspire-3120597",
-      "location": "Beijing, China",
-      "name": "Next Frontiers in Magnetic Monopole Searches",
-      "source": "inspire-hep",
-      "start": "2026-09-11",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.ihep.ac.cn/event/28485/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-18",
-      "full_name": "ML4Jets 2026",
-      "id": "inspire-2966151",
-      "location": "Vienna, Austria",
-      "name": "ML4Jets 2026",
-      "source": "inspire-hep",
-      "start": "2026-09-14",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/15240/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-18",
-      "full_name": "The Fundamentals 2",
-      "id": "inspire-3091947",
-      "location": "Split, Croatia",
-      "name": "The Fundamentals 2",
-      "source": "inspire-hep",
-      "start": "2026-09-14",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://sites.google.com/view/the-fundamentals-2/home"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-18",
-      "full_name": "13th Aegean Summer School",
-      "id": "inspire-3128285",
-      "location": "Kasos, Greece",
-      "name": "Aegean Summer School",
-      "source": "inspire-hep",
-      "start": "2026-09-14",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://www.physics.ntua.gr/cosmo26/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-18",
-      "full_name": "18th International Conference on Resistive Plate Chambers and Related Detectors",
-      "id": "inspire-3074246",
-      "location": "Rio de Janeiro, Brazil",
-      "name": "RPC 2026",
-      "source": "inspire-hep",
-      "start": "2026-09-14",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://rpc2026.uerj.br/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-17",
-      "full_name": "New Directions in Semiclassical Gravity",
-      "id": "inspire-3145750",
-      "location": "York, United Kingdom",
-      "name": "New Directions in Semiclassical Gravity",
-      "source": "inspire-hep",
-      "start": "2026-09-14",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://sites.google.com/york.ac.uk/new-directions-scg-workshop/home"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-22",
-      "full_name": "Erice International School/Workshop of Nuclear Physics, 47th course on 'Neutrinos in Cosmology,in Astro-, Particle- and Nuclear Physics'",
-      "id": "inspire-3118313",
-      "location": "Erice, Sicily, Italy",
-      "name": "Erice International School/Workshop of Nuclear Physics, 47th",
-      "source": "inspire-hep",
-      "start": "2026-09-16",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.gsi.de/event/23757/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-09-27",
-      "full_name": "36th International School \u201cFrancesco Romano\u201d on Nuclear, Subnuclear and Astroparticle Physics",
-      "id": "inspire-3140487",
-      "location": "Bari, Italy",
-      "name": "ISFR 2026",
-      "source": "inspire-hep",
-      "start": "2026-09-20",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://isfr.ba.infn.it/isfr2026/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-10-02",
-      "full_name": "2nd UNDARK workshop",
-      "id": "inspire-3128409",
-      "location": "La Laguna, Spain",
-      "name": "UNDARK workshops",
-      "source": "inspire-hep",
-      "start": "2026-09-28",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://meetings.iac.es/astrodarkgamma/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
       "end": "2026-10-09",
-      "full_name": "Dark Interactions",
-      "id": "inspire-3128715",
-      "location": "Geneva, Switzerland",
-      "name": "DI2026",
-      "source": "inspire-hep",
-      "start": "2026-10-05",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://indico.cern.ch/event/1639855/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-10-09",
-      "full_name": "DICE2026 Spacetime - Matter - Quantum Mechanics",
-      "id": "inspire-3129307",
-      "location": "Castiglioncello / Tuscany, Italy",
-      "name": "DICE2026",
-      "source": "inspire-hep",
-      "start": "2026-10-05",
+      "full_name": "Conference on Language Modeling",
+      "id": "ai-deadlines:colm26",
+      "location": "San Francisco, USA",
+      "name": "COLM 2026",
+      "source": "ai-deadlines",
+      "start": "2026-10-06",
       "submission_deadline": null,
       "tags": [
         "conference",
-        "cosmo"
+        "large-language-models",
+        "ml",
+        "natural-language-processing"
       ],
-      "url": "https://osiris.df.unipi.it/~elze/DICE2026.html"
+      "url": "https://colmweb.org/"
     },
     {
       "approximate": false,
@@ -2296,212 +412,41 @@
     {
       "approximate": false,
       "deadline_note": null,
-      "end": "2026-10-16",
-      "full_name": "The ACME Hands-On Observational School in Optical Follow-Up of Transients",
-      "id": "inspire-3139130",
-      "location": "Asiago, Italy",
-      "name": "The ACME Hands-On Observational School in Optical Follow-Up ",
-      "source": "inspire-hep",
-      "start": "2026-10-12",
+      "end": "2027-02-23",
+      "full_name": "AAAI Conference on Artificial Intelligence",
+      "id": "ai-deadlines:aaai27",
+      "location": "Montr\u00e9al, Canada",
+      "name": "AAAI 2027",
+      "source": "ai-deadlines",
+      "start": "2027-02-16",
       "submission_deadline": null,
       "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://acme-asiago-sch.sciencesconf.org/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-10-22",
-      "full_name": "The 1st International Online Conference on Symmetry",
-      "id": "inspire-3086550",
-      "location": "Beijing, China",
-      "name": "IOCSYM2026",
-      "source": "inspire-hep",
-      "start": "2026-10-20",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
+        "computer-vision",
         "conference",
-        "cosmo"
+        "data-mining",
+        "machine-learning",
+        "ml",
+        "natural-language-processing"
       ],
-      "url": "https://sciforum.net/event/IOCSYM2026"
+      "url": "https://aaai.org/conference/aaai/"
     },
     {
       "approximate": false,
       "deadline_note": null,
-      "end": "2026-10-24",
-      "full_name": "International Workshop on Baryon and Lepton Number Violation (BLV2026)",
-      "id": "inspire-3100114",
-      "location": "New Haven, United States",
-      "name": "BLV",
-      "source": "inspire-hep",
-      "start": "2026-10-22",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.wlab.yale.edu/event/906/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-10-30",
-      "full_name": "SoUP2026",
-      "id": "inspire-3075717",
-      "location": "Bertinoro, Italy",
-      "name": "SoUP: INFN School on Underground Physics",
-      "source": "inspire-hep",
-      "start": "2026-10-26",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://soup2026.ca.infn.it/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-10-31",
-      "full_name": "HEPMAD26",
-      "id": "inspire-3109687",
-      "location": "Antananarivo, Madagascar",
-      "name": "HEPMAD",
-      "source": "inspire-hep",
-      "start": "2026-10-26",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://inspirehep.net/conferences/3109687"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-10-31",
-      "full_name": "HEPMAD26",
-      "id": "inspire-3109688",
-      "location": "Antananarivo, Madagascar",
-      "name": "HEPMAD",
-      "source": "inspire-hep",
-      "start": "2026-10-26",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference"
-      ],
-      "url": "https://www.lupm.in2p3.fr/users/qcd/hepmad26/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-11-13",
-      "full_name": "21st Patras Workshop on Axions, WIMPs and WISPs",
-      "id": "inspire-3120091",
-      "location": "Perth, Australia",
-      "name": "AXION-WIMP",
-      "source": "inspire-hep",
-      "start": "2026-11-09",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.global/event/16402/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-11-20",
-      "full_name": "CosmoGravitas; 2nd International Conference on Cosmology and Gravitation",
-      "id": "inspire-3128616",
-      "location": "Pattaya, Thailand",
-      "name": "CosmoGravitas; 2nd International Conference on Cosmology and",
-      "source": "inspire-hep",
-      "start": "2026-11-16",
+      "end": "2027-03-25",
+      "full_name": "European Conference on Information Retrieval",
+      "id": "ai-deadlines:ecir27",
+      "location": "Southampton, United Kingdom",
+      "name": "ECIR 2027",
+      "source": "ai-deadlines",
+      "start": "2027-03-21",
       "submission_deadline": null,
       "tags": [
         "conference",
-        "cosmo"
+        "data-mining",
+        "ml"
       ],
-      "url": "https://indico.narit.or.th/event/234/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-12-12",
-      "full_name": "Bangkok School on Cosmology",
-      "id": "inspire-3120087",
-      "location": "Bangkok, Thailand",
-      "name": "Bangkok School on Cosmology",
-      "source": "inspire-hep",
-      "start": "2026-12-06",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.ictp.it/event/11129/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2026-12-17",
-      "full_name": "4th International Conference on Neutrinos and Dark Matter",
-      "id": "inspire-3092451",
-      "location": "Aswan, Egypt",
-      "name": "NuDM- 2026",
-      "source": "inspire-hep",
-      "start": "2026-12-14",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/event/1609263/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2027-01-29",
-      "full_name": "CosmoFONDUE 2027",
-      "id": "inspire-3129299",
-      "location": "Geneva, Switzerland",
-      "name": "CosmoFONDUE",
-      "source": "inspire-hep",
-      "start": "2027-01-25",
-      "submission_deadline": null,
-      "tags": [
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/event/1638385/"
-    },
-    {
-      "approximate": false,
-      "deadline_note": null,
-      "end": "2027-03-10",
-      "full_name": "24th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2027)",
-      "id": "inspire-3109061",
-      "location": "Setagaya City, Japan",
-      "name": "ACAT",
-      "source": "inspire-hep",
-      "start": "2027-03-05",
-      "submission_deadline": null,
-      "tags": [
-        "astro",
-        "conference",
-        "cosmo"
-      ],
-      "url": "https://indico.cern.ch/e/acat2027"
+      "url": "https://www.ecir2027.co.uk/"
     },
     {
       "approximate": false,
@@ -2586,6 +531,48 @@
     },
     {
       "approximate": true,
+      "deadline_note": "Abstracts typically due mid-Jan; verify each cycle.",
+      "end": null,
+      "full_name": "APS April Meeting (\"Quarks to Cosmos\")",
+      "id": "aps-april-2026",
+      "location": "TBA",
+      "name": "APS April Meeting 2026",
+      "notes": "Spans Divisions of Astrophysics, Gravitational Physics, Particles & Fields, Nuclear Physics. Annual.",
+      "notification": null,
+      "parent": null,
+      "source": "curated",
+      "start": null,
+      "submission_deadline": null,
+      "tags": [
+        "astro",
+        "conference",
+        "cosmo",
+        "physics"
+      ],
+      "url": "https://april.aps.org/"
+    },
+    {
+      "approximate": true,
+      "deadline_note": "Symposia/SS proposals open earlier; abstract deadlines per-symposium.",
+      "end": null,
+      "full_name": "European Astronomical Society Annual Meeting",
+      "id": "eas-2026",
+      "location": "TBA",
+      "name": "EAS Annual Meeting 2026",
+      "notes": "Pan-European astro meeting; ML-for-astro symposia appear most years.",
+      "notification": null,
+      "parent": null,
+      "source": "curated",
+      "start": null,
+      "submission_deadline": null,
+      "tags": [
+        "astro",
+        "conference"
+      ],
+      "url": "https://eas.unige.ch/"
+    },
+    {
+      "approximate": true,
       "deadline_note": "CFP typically opens late Aug; submissions early\u2013mid Sep (verify)",
       "end": null,
       "full_name": "Machine Learning and the Physical Sciences Workshop",
@@ -2628,8 +615,29 @@
         "workshop"
       ],
       "url": "https://ai4s.github.io/"
+    },
+    {
+      "approximate": true,
+      "deadline_note": "Main track typically due late Oct. Not in ai-deadlines.",
+      "end": null,
+      "full_name": "Conference on Machine Learning and Systems",
+      "id": "mlsys-2027",
+      "location": "TBA",
+      "name": "MLSys 2027",
+      "notes": "Relevant for HPC+ML systems work (HiPerRAG-style).",
+      "notification": null,
+      "parent": null,
+      "source": "curated",
+      "start": null,
+      "submission_deadline": null,
+      "tags": [
+        "conference",
+        "hpc",
+        "ml"
+      ],
+      "url": "https://mlsys.org/"
     }
   ],
-  "generated_at": "2026-04-17T18:47:53+00:00",
+  "generated_at": "2026-04-17T19:53:47+00:00",
   "today": "2026-04-17"
 }

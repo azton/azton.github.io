@@ -92,3 +92,55 @@ entries:
     tags: [astro, conference]
     approximate: true
     notes: "Abstract deadlines vary by session; check meeting page."
+
+  # ---- Big general physics / astronomy society meetings ----
+  # These broad meetings host astro/cosmo divisions or sessions and are not
+  # in INSPIRE-HEP or ai-deadlines. Update dates as CFPs open.
+
+  - id: aps-april-2026
+    name: APS April Meeting 2026
+    full_name: APS April Meeting ("Quarks to Cosmos")
+    url: https://april.aps.org/
+    location: TBA
+    submission_deadline: null
+    deadline_note: "Abstracts typically due mid-Jan; verify each cycle."
+    start: null
+    end: null
+    tags: [physics, astro, cosmo, conference]
+    approximate: true
+    notes: "Spans Divisions of Astrophysics, Gravitational Physics, Particles & Fields, Nuclear Physics. Annual."
+
+  - id: eas-2026
+    name: EAS Annual Meeting 2026
+    full_name: European Astronomical Society Annual Meeting
+    url: https://eas.unige.ch/
+    location: TBA
+    submission_deadline: null
+    deadline_note: "Symposia/SS proposals open earlier; abstract deadlines per-symposium."
+    start: null
+    end: null
+    tags: [astro, conference]
+    approximate: true
+    notes: "Pan-European astro meeting; ML-for-astro symposia appear most years."
+
+  # ---- ML / AI / NLP venues not carried by huggingface/ai-deadlines ----
+  # Most major ML venues are auto-pulled by `fetch_ai_deadlines()` from
+  # huggingface/ai-deadlines. Only list a venue here if:
+  #   (a) it's missing from that feed (e.g. MLSys), or
+  #   (b) the upstream feed has stale/incorrect data for the next cycle.
+  # An id-prefix collision (e.g. "ai-deadlines:neurips26") would let a
+  # curated entry override the feed's entry — but in general prefer to fix
+  # upstream or let the feed carry it.
+
+  - id: mlsys-2027
+    name: MLSys 2027
+    full_name: Conference on Machine Learning and Systems
+    url: https://mlsys.org/
+    location: TBA
+    submission_deadline: null
+    deadline_note: "Main track typically due late Oct. Not in ai-deadlines."
+    start: null
+    end: null
+    tags: [ml, hpc, conference]
+    approximate: true
+    notes: "Relevant for HPC+ML systems work (HiPerRAG-style)."
