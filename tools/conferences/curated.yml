@@ -1,0 +1,94 @@
+# Hand-maintained conference/workshop entries for the Conferences page.
+#
+# Focus: astrophysics/cosmology + ML/HPC overlap. General-science workshops
+# are welcome if they typically carry astro/cosmo content.
+#
+# Fields:
+#   id                  unique slug; stable across runs (used in the URL hash)
+#   name                short display name
+#   full_name           optional long form, shown as subtitle
+#   url                 canonical CFP/homepage URL
+#   parent              optional (e.g. "NeurIPS 2026")
+#   location            short string, or "virtual"
+#   submission_deadline ISO date (YYYY-MM-DD) or YYYY-MM-DDTHH:MM in UTC. Leave null if unknown.
+#   deadline_note       free text — e.g. "AoE", "23:59 UTC", "papers only"
+#   notification        ISO date (optional)
+#   start               ISO date of event
+#   end                 ISO date of event
+#   tags                list — any of: ml, hpc, astro, cosmo, workshop, conference, physical_sciences
+#   approximate         true if dates are estimates; shown with "~" in the UI
+#   notes               free-text note
+#
+# Tips:
+#   - Always include `tags`; the UI uses them for filter chips.
+#   - If a big ML conf has multiple astro-relevant workshops, list each workshop
+#     as its own entry (not the parent main track).
+#   - Set `submission_deadline: null` for event-only entries; they'll still show
+#     in the "Upcoming events" section.
+
+entries:
+  - id: ml4ps-2026
+    name: ML4PS 2026
+    full_name: Machine Learning and the Physical Sciences Workshop
+    url: https://ml4physicalsciences.github.io/
+    parent: NeurIPS 2026
+    location: San Diego, USA
+    submission_deadline: null
+    deadline_note: "CFP typically opens late Aug; submissions early–mid Sep (verify)"
+    start: null
+    end: null
+    tags: [ml, workshop, physical_sciences, astro, cosmo]
+    approximate: true
+    notes: "Strong astro/cosmo presence every year. Workshop at NeurIPS."
+
+  - id: ai4science-neurips-2026
+    name: AI4Science @ NeurIPS 2026
+    full_name: AI for Science Workshop
+    url: https://ai4sciencecommunity.github.io/
+    parent: NeurIPS 2026
+    location: San Diego, USA
+    submission_deadline: null
+    deadline_note: "CFP typically ~Sep (verify)"
+    start: null
+    end: null
+    tags: [ml, workshop, physical_sciences]
+    approximate: true
+
+  - id: adass-2026
+    name: ADASS 2026
+    full_name: Astronomical Data Analysis Software and Systems
+    url: https://www.adass.org/
+    location: TBA
+    submission_deadline: null
+    deadline_note: "Abstract deadline usually ~late June (verify each year)"
+    start: null
+    end: null
+    tags: [astro, conference, ml, hpc]
+    approximate: true
+    notes: "Core venue for astro software/data/ML pipelines. Replace dates when CFP opens."
+
+  - id: mlhpc-sc26
+    name: MLHPC @ SC26
+    full_name: Machine Learning in HPC Environments Workshop
+    url: https://ai4s.github.io/
+    parent: SC26
+    location: TBA
+    submission_deadline: null
+    deadline_note: "Submissions typically ~early Sep"
+    start: null
+    end: null
+    tags: [hpc, ml, workshop, physical_sciences]
+    approximate: true
+    notes: "SC workshop covering HPC+ML applications incl. astro/cosmo simulations."
+
+  - id: aas-249-winter
+    name: AAS 249 Winter
+    full_name: American Astronomical Society Winter Meeting
+    url: https://aas.org/meetings
+    location: TBA
+    submission_deadline: null
+    start: null
+    end: null
+    tags: [astro, conference]
+    approximate: true
+    notes: "Abstract deadlines vary by session; check meeting page."

@@ -1,4 +1,6 @@
 - title: Home
   url: /
-  title: LLM Information
+- title: LLM Information
   url: /llm-science/
+- title: Conferences
+  url: /conferences/

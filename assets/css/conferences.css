@@ -1,0 +1,129 @@
+/* Conferences page */
+.conf-intro { color: #666; margin-bottom: 1rem; font-size: .95rem; }
+.conf-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  padding: .5rem 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.conf-filters { display: flex; flex-wrap: wrap; gap: .35rem; }
+.conf-chip {
+  display: inline-block;
+  padding: 2px 9px;
+  border: 1px solid #bbb;
+  border-radius: 999px;
+  font-size: .78rem;
+  cursor: pointer;
+  color: #444;
+  background: #fff;
+  user-select: none;
+}
+.conf-chip.on { background: #222; color: #fff; border-color: #222; }
+.conf-chip:hover { background: #f0f0f0; }
+.conf-chip.on:hover { background: #000; }
+
+.conf-toggle {
+  font-size: .85rem;
+  color: #555;
+  margin-left: auto;
+  cursor: pointer;
+}
+.conf-toggle input { margin-right: 4px; vertical-align: middle; }
+
+.conf-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .6rem;
+  margin-bottom: 1.5rem;
+}
+
+.conf-card {
+  display: grid;
+  grid-template-columns: 92px 1fr auto;
+  gap: .8rem;
+  padding: .75rem .9rem;
+  border: 1px solid #ddd;
+  border-left: 4px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  align-items: start;
+}
+.conf-card.is-urgent { border-left-color: #d93025; }
+.conf-card.is-soon   { border-left-color: #f29900; }
+.conf-card.is-ok     { border-left-color: #1e8e3e; }
+.conf-card.is-past   { border-left-color: #999; opacity: .55; }
+.conf-card.is-event  { border-left-color: #4c8bf5; }
+
+.conf-countdown {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: .95rem;
+  text-align: right;
+  color: #333;
+  line-height: 1.15;
+}
+.conf-countdown .num { font-size: 1.3rem; font-weight: 600; display: block; }
+.conf-countdown .lbl { font-size: .72rem; color: #888; text-transform: uppercase; letter-spacing: .05em; }
+.conf-card.is-urgent .num { color: #d93025; }
+.conf-card.is-soon .num   { color: #b06a00; }
+.conf-card.is-ok .num     { color: #1e8e3e; }
+
+.conf-body { min-width: 0; }
+.conf-name { font-weight: 600; margin: 0; font-size: 1rem; }
+.conf-name a { color: inherit; text-decoration: none; border-bottom: 1px dashed #bbb; }
+.conf-name a:hover { border-bottom-style: solid; }
+.conf-sub { color: #666; font-size: .83rem; margin-top: 2px; }
+.conf-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem .9rem;
+  margin-top: .35rem;
+  font-size: .8rem;
+  color: #555;
+}
+.conf-meta-row .k { color: #999; margin-right: 3px; }
+.conf-meta-row .approx { color: #b06a00; }
+.conf-tags { display: flex; flex-wrap: wrap; gap: 3px; margin-top: .35rem; }
+.conf-tag {
+  font-size: .7rem;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: #eef1f4;
+  color: #444;
+}
+.conf-tag.source-curated { background: #e6f4ea; color: #1e8e3e; }
+.conf-tag.source-inspire-hep { background: #e8eefc; color: #1a54c9; }
+
+.conf-actions { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; }
+.conf-actions a {
+  font-size: .78rem;
+  color: #1a54c9;
+  text-decoration: none;
+  border: 1px solid #dce3f1;
+  padding: 2px 8px;
+  border-radius: 3px;
+  background: #f7f9fd;
+}
+.conf-actions a:hover { background: #eaf0fb; }
+
+.conf-meta {
+  color: #999;
+  font-size: .78rem;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.conf-empty {
+  color: #999;
+  font-style: italic;
+  padding: .6rem 0;
+}
+
+@media (max-width: 560px) {
+  .conf-card { grid-template-columns: 78px 1fr; }
+  .conf-actions { grid-column: 1 / -1; flex-direction: row; justify-content: flex-start; }
+}
