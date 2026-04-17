@@ -88,6 +88,11 @@
     if (kind === "deadline" && entry.submission_deadline) {
       metaParts.push(`<span><span class="k">deadline</span>${esc(fmtDate(entry.submission_deadline))}${entry.deadline_note ? " — " + esc(entry.deadline_note) : ""}</span>`);
     }
+    if (!entry.submission_deadline && entry.estimated_deadline) {
+      const estDays = daysBetween(entry.estimated_deadline);
+      const estSuffix = estDays != null && estDays > 0 ? ` (~${estDays}d)` : "";
+      metaParts.push(`<span class="est-deadline"><span class="k">est. CFP</span>~${esc(fmtDate(entry.estimated_deadline))}${estSuffix}</span>`);
+    }
     if (approx) metaParts.push(approx);
 
     const tagsHtml = (entry.tags || []).map(t => `<span class="conf-tag">${esc(t)}</span>`).join("")

@@ -87,6 +87,8 @@
 }
 .conf-meta-row .k { color: #999; margin-right: 3px; }
 .conf-meta-row .approx { color: #b06a00; }
+.conf-meta-row .est-deadline { color: #b06a00; font-style: italic; }
+.conf-meta-row .est-deadline .k { color: #b06a00; opacity: .7; }
 .conf-tags { display: flex; flex-wrap: wrap; gap: 3px; margin-top: .35rem; }
 .conf-tag {
   font-size: .7rem;

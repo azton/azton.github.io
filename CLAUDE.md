@@ -281,6 +281,33 @@ rules strictly:
 If an entry straddles the scope boundary and you're unsure, leave it out
 and note it in the commit message so the user can weigh in.
 
+### Deadline estimation
+
+When a conference has no known `submission_deadline` but does have a
+future `start` date, `apply_deadline_estimate()` fills in an
+`estimated_deadline` of `start - typical_lead`. Lead-time buckets
+(`ESTIMATED_LEAD_DAYS` in `update.py`): ml-main 150d, ml-workshop 60d,
+hpc-main 150d, hpc-workshop 90d, astro-workshop 60d, astro-conf 45d,
+default 60d. Bucket is chosen by tags + name keywords (NeurIPS/ICML,
+"workshop", "hpc", etc.).
+
+Rules:
+
+- Skipped for `source: ai-deadlines` entries — those have authoritative
+  deadlines, so a null value means "CFP already passed," not "unknown."
+  Estimating them would mislead.
+- Skipped when the event is more than ~10 months out (`ESTIMATE_HORIZON_DAYS`)
+  or when the estimate would land in the past (the user should look up
+  the real CFP rather than trust a stale guess).
+- Renderer (`conferences.js`) shows estimates as `est. CFP ~YYYY-MM-DD
+  (Nd)` in italicized orange on the event card — visually distinct from
+  real deadlines, which stay in the deadline list.
+
+When tuning lead days, check the script's "estimated deadlines for N
+entries" print line and spot-check the categories; an entry landing in
+an obviously wrong bucket usually means the name/tags heuristic in
+`_estimate_lead_category()` needs a new keyword.
+
 ### Standard venues to keep fresh
 
 These should almost always be represented in `curated.yml` with whatever

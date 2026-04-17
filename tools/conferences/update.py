@@ -15,7 +15,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -481,6 +481,77 @@ def load_curated() -> list[dict]:
     return normalized
 
 
+# ---------- deadline estimation ----------
+#
+# When a conference has no known submission_deadline but does have a start
+# date, we guess the deadline as `start - typical_lead`. The estimate is
+# advisory — rendered italicized + prefixed with `~` — so users know to
+# verify before acting. Only emitted when the estimate is still in the
+# future and the event is within a reasonable horizon.
+
+ESTIMATED_LEAD_DAYS = {
+    "ml-main":        150,  # NeurIPS/ICML/ICLR/ACL main tracks
+    "ml-workshop":     60,  # ML4PS, AI4Science, etc. at NeurIPS/ICML
+    "hpc-main":       150,  # SC, PASC main track
+    "hpc-workshop":    90,  # MLHPC, AI4S @ SC
+    "astro-workshop":  60,  # ADASS, ML4Astro, mission workshops
+    "astro-conf":      45,  # general astro/cosmo meetings, AAS
+    "default":         60,
+}
+ESTIMATE_HORIZON_DAYS = 300  # skip estimate if event >~10 months out
+
+
+def _estimate_lead_category(entry: dict) -> str:
+    name = (entry.get("name") or "").lower()
+    full = (entry.get("full_name") or "").lower()
+    tags = set(entry.get("tags") or [])
+    blob = f"{name} {full}"
+
+    is_workshop = "workshop" in blob or bool(entry.get("parent"))
+
+    if "hpc" in tags or any(k in blob for k in ("supercomputing", "pasc", "high-performance", "high performance")):
+        return "hpc-workshop" if is_workshop else "hpc-main"
+    if "ml" in tags or any(k in blob for k in (
+        "neurips", "icml", "iclr", "aaai", "ijcai",
+        "acl ", "emnlp", "naacl", "colm", "conll",
+    )):
+        return "ml-workshop" if is_workshop else "ml-main"
+    if "astro" in tags or "cosmo" in tags:
+        return "astro-workshop" if is_workshop else "astro-conf"
+    return "default"
+
+
+def apply_deadline_estimate(entry: dict) -> None:
+    """Mutates `entry` to add estimated_deadline + estimated_lead_category
+    when the real deadline is unknown but estimable."""
+    if entry.get("submission_deadline"):
+        return
+    # ai-deadlines deadlines are authoritative. A null deadline here means
+    # the most recent CFP has already passed — estimating would be wrong.
+    if entry.get("source") == "ai-deadlines":
+        return
+    start = entry.get("start")
+    if not start:
+        return
+    try:
+        start_d = date.fromisoformat(str(start)[:10])
+    except ValueError:
+        return
+    today_d = today()
+    days_to_start = (start_d - today_d).days
+    if days_to_start <= 0 or days_to_start > ESTIMATE_HORIZON_DAYS:
+        return
+    category = _estimate_lead_category(entry)
+    lead = ESTIMATED_LEAD_DAYS.get(category, ESTIMATED_LEAD_DAYS["default"])
+    est_d = start_d - timedelta(days=lead)
+    # If the estimated window has already passed, suppress — the user should
+    # go look up the real CFP rather than trust a stale guess.
+    if est_d <= today_d:
+        return
+    entry["estimated_deadline"] = est_d.isoformat()
+    entry["estimated_lead_category"] = category
+
+
 def merge(curated: list[dict], *others: list[dict]) -> list[dict]:
     """Curated wins on id collision; remaining sources are appended in order,
     each losing to anything already present (first source wins for a given id)."""
@@ -534,6 +605,10 @@ def main() -> int:
         print(f"  {len(ai_entries)} venues with upcoming deadline or event")
 
     merged = merge(curated, ai_entries, parsed)
+    for e in merged:
+        apply_deadline_estimate(e)
+    n_est = sum(1 for e in merged if e.get("estimated_deadline"))
+    print(f"[update] estimated deadlines for {n_est} entries (real deadline unknown, event in range)")
     merged.sort(key=_sort_key)
 
     payload = {
