@@ -68,6 +68,13 @@
   color: #444;
 }
 .work-tag.primary { background: #e8eefc; color: #1a54c9; }
+.work-venue {
+  padding: 1px 7px;
+  border-radius: 3px;
+  background: #f3eee8;
+  color: #7a5a2a;
+  font-style: italic;
+}
 .work-link {
   color: #1a54c9;
   text-decoration: none;

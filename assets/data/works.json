@@ -1,14 +1,61 @@
 {
   "counts": {
-    "excluded": 0,
-    "included": 14,
+    "excluded": 2,
+    "included": 19,
     "needs_review": 0
   },
   "entries": [
     {
+      "abstract": "This work introduces StarNet, an in situ surrogate model for primordial star formation and feedback within cosmological simulations. Traditional simulations of primordial star formation and supernovae require extreme resolution to resolve both time and spatial scales of star formation. Our framework combines deep learning models and empirical feedback parameterizations from high-resolution simulations to predict and model heterogeneous metal enrichment from Population (Pop) III stars. By coupling StarNet with the Enzo simulation suite, we model the spatially and temporally varying enrichment patterns of Pop III associations without the computational burden of resolving their fine-scale dynamics. Comparisons with high-resolution ground-truth simulations demonstrate the framework\u2019s ability to replicate key features of Pop III feedback: volume fraction enrichment and spatial distribution of enriched halos and galaxies.",
+      "arxiv_id": null,
+      "arxiv_version": null,
+      "author_ids_s2": [
+        "145759249",
+        "2305811973"
+      ],
+      "authors": [
+        {
+          "affiliation": null,
+          "name": "Azton I. Wells"
+        },
+        {
+          "affiliation": null,
+          "name": "Michael L. Norman"
+        }
+      ],
+      "categories": [],
+      "comment": null,
+      "doi": "10.3847/1538-4365/ae42c5",
+      "id": "doi:10.3847/1538-4365/ae42c5",
+      "pdf_url": "",
+      "primary_category": null,
+      "published": "2026-03-16T00:00:00Z",
+      "s2_paper_id": "69227609f296220241bf4d0ba3a96b01866be6c4",
+      "source": "semanticscholar",
+      "sources": [
+        "semanticscholar"
+      ],
+      "status": "included",
+      "status_reason": "pinned S2 author id",
+      "title": "StarNet: An In Situ Surrogate Model of Primordial Star Formation and Feedback for Astrophysical Simulations",
+      "updated": "2026-03-16T00:00:00Z",
+      "url": "https://doi.org/10.3847/1538-4365/ae42c5",
+      "venue": "Astrophysical Journal Supplement Series"
+    },
+    {
       "abstract": "Large Language Models (LLMs) in multi-agent systems (MAS) have shown promise for complex tasks, yet current training methods lack principled ways to connect system-level evaluation with agent-level and message-level learning. We propose a theoretical framework that unifies cooperative game-theoretic attribution with process reward modeling to transform system evaluation into agent credit and then into response-level signals. Unlike prior approaches that rely only on attribution (e.g., Shapley) or step-level labels (e.g., PRM), our method produces local, signed, and credit-conserving signals. In success cases, Shapley-based credit assignment fairly allocates outcomes across agents and is refined into per-message rewards that promote cooperation while discouraging redundancy or sabotage. In failure cases, first-error localization yields repair-aware preferences that penalize harmful steps while rewarding corrective attempts. The resulting signals are bounded, cooperative, and directly compatible with reinforcement-based or preference-based post-training, providing a unified and auditable pathway from global evaluation to local supervision in LLM multi-agent training. Our contribution is conceptual: we present a theoretical foundation and training signals, leaving empirical validation for future work.",
       "arxiv_id": "2511.10687",
       "arxiv_version": "2511.10687v2",
+      "author_ids_s2": [
+        "2146395956",
+        "2257206031",
+        "2267335492",
+        "2304499386",
+        "2311510072",
+        "2313120070",
+        "2314492392",
+        "2382986042"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -55,17 +102,30 @@
       "pdf_url": "https://arxiv.org/pdf/2511.10687v2",
       "primary_category": "cs.MA",
       "published": "2025-11-11T22:21:08Z",
+      "s2_paper_id": "1a9763eb2db399057e06ab99acac5c2387007a8f",
       "source": "arxiv",
-      "status": "included",
-      "status_reason": "exact name match",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
+      "status": "excluded",
+      "status_reason": "manual exclude",
       "title": "Who Gets the Reward, Who Gets the Blame? Evaluation-Aligned Training Signals for Multi-LLM Agents",
       "updated": "2025-11-17T19:45:26Z",
-      "url": "https://arxiv.org/abs/2511.10687"
+      "url": "https://arxiv.org/abs/2511.10687",
+      "venue": "arXiv.org"
     },
     {
       "abstract": "We present a multi-modal foundation model for astrophysical galaxy data, designed to map between simulation- and observation-based galactic features. Our encoder-only transformer flexibly ingests scalar quantities (e.g., redshifts, galaxy masses) and vectors (e.g., star formation histories, spectra), supporting multi-task training that includes within-modality reconstruction and cross-modality prediction. With a dynamic masking strategy, the model can query arbitrary galaxy properties from partial inputs -- including predicting spectra from redshift and mass, or estimating photometric redshifts from broadband magnitudes -- while also recovering missing segments within a modality. Trained on 185,000 simulated galaxies from a gigaparsec-scale Cosmology simulation, the model yields a 50% improvement in redshift estimation when combining LSST and SPHEREx photometry over LSST photometry alone, and a 63% improvement in stellar mass inference when combining late-time SFH with LSST photometry over early-time SFH with LSST photometry. The model demonstrates strong generalization across multi-modal tasks and lays the groundwork for future integration of higher-dimensional and structured data such as images, merger trees, and 3D fields. This approach provides a unified framework for connecting simulations and observations, advancing the development of generalizable astrophysical foundation models.",
       "arxiv_id": "2510.07684",
       "arxiv_version": "2510.07684v1",
+      "author_ids_s2": [
+        "2290776828",
+        "2311510072",
+        "2375903968",
+        "2384776485",
+        "71349489"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -97,17 +157,35 @@
       "pdf_url": "https://arxiv.org/pdf/2510.07684v1",
       "primary_category": "astro-ph.GA",
       "published": "2025-10-09T02:16:35Z",
+      "s2_paper_id": "d1e98f632b92c46d4e26f031171b5b4f564e7798",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "Multi-modal Foundation Model for Cosmological Simulation Data",
       "updated": "2025-10-09T02:16:35Z",
-      "url": "https://arxiv.org/abs/2510.07684"
+      "url": "https://arxiv.org/abs/2510.07684",
+      "venue": null
     },
     {
       "abstract": "Large language models (LLMs) often fail to scale their performance on long-context tasks performance in line with the context lengths they support. This gap is commonly attributed to retrieval failures -- the models' inability to identify relevant information in the long inputs. Accordingly, recent efforts often focus on evaluating and improving LLMs' retrieval performance: if retrieval is perfect, a model should, in principle, perform just as well on a long input as it does on a short one -- or should it? This paper presents findings that the answer to this question may be negative. Our systematic experiments across 5 open- and closed-source LLMs on math, question answering, and coding tasks reveal that, even when models can perfectly retrieve all relevant information, their performance still degrades substantially (13.9%--85%) as input length increases but remains well within the models' claimed lengths. This failure occurs even when the irrelevant tokens are replaced with minimally distracting whitespace, and, more surprisingly, when they are all masked and the models are forced to attend only to the relevant tokens. A similar performance drop is observed when all relevant evidence is placed immediately before the question. Our findings reveal a previously-unrealized limitation: the sheer length of the input alone can hurt LLM performance, independent of retrieval quality and without any distraction. They motivate our simple, model-agnostic mitigation strategy that transforms a long-context task into a short-context one by prompting the model to recite the retrieved evidence before attempting to solve the problem. On RULER, we observe a consistent improvement of GPT-4o up to 4% on an already strong baseline.",
       "arxiv_id": "2510.05381",
       "arxiv_version": "2510.05381v1",
+      "author_ids_s2": [
+        "2249761654",
+        "2300177208",
+        "2311510072",
+        "2311882756",
+        "2312034033",
+        "2335705119",
+        "2385321932",
+        "3329096",
+        "3404365",
+        "40696276"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -160,17 +238,30 @@
       "pdf_url": "https://arxiv.org/pdf/2510.05381v1",
       "primary_category": "cs.CL",
       "published": "2025-10-06T21:17:13Z",
+      "s2_paper_id": "55e0300470bc99172e763f6fd6d3e7935f7d90e0",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "Context Length Alone Hurts LLM Performance Despite Perfect Retrieval",
       "updated": "2025-10-06T21:17:13Z",
-      "url": "https://arxiv.org/abs/2510.05381"
+      "url": "https://arxiv.org/abs/2510.05381",
+      "venue": "Conference on Empirical Methods in Natural Language Processing"
     },
     {
       "abstract": "Pre-trained Large Language Models (LLMs) have revolutionized text processing, yet adapting Transformer-based neural networks to non-textual scientific modalities typically requires specialized architectures and extensive computational resources. We demonstrate that LLaMA-3.1-8B can be efficiently repurposed to predict galaxy redshifts from spectroscopic data through Low-Rank Adaptation (LoRA), achieving competitive performance while preserving its linguistic capabilities. Using only 16 GPU-hours and adapting 0.04% of model parameters, our approach achieves a mean absolute error of 0.04 in redshift prediction while retaining over 85% of performance on AstroBench and 89% on general QA tasks from eval-harness. This minimal-effort adaptation--requiring only simple standard fine-tuning APIs--lowers barriers to entry for domain scientists and enables integrated agentic workflows where a single model handles both spectroscopic data for quantitative analysis and natural language for reasoning.",
       "arxiv_id": "2508.10075",
       "arxiv_version": "2508.10075v1",
+      "author_ids_s2": [
+        "2239167308",
+        "2260337474",
+        "2311510072",
+        "2375903968",
+        "71349489"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -202,17 +293,35 @@
       "pdf_url": "https://arxiv.org/pdf/2508.10075v1",
       "primary_category": "astro-ph.IM",
       "published": "2025-08-13T16:27:12Z",
+      "s2_paper_id": "f7b55806ab836eaaee915ec44893fecbc194132a",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "Teaching LLMs to Speak Spectroscopy",
       "updated": "2025-08-13T16:27:12Z",
-      "url": "https://arxiv.org/abs/2508.10075"
+      "url": "https://arxiv.org/abs/2508.10075",
+      "venue": null
     },
     {
       "abstract": "General-purpose large language models (LLMs), despite their broad capabilities, often struggle with specialized domain knowledge. This gap hinders their deployment as reliable research agents in demanding fields such as astronomy. Building on our prior work with AstroSage-Llama-3.1-8B, this study introduces AstroSage-Llama-3.1-70B, a 70-billion parameter domain-specialized natural-language AI assistant. It is designed for research and education across astronomy, astrophysics, space science, astroparticle physics, cosmology, and astronomical instrumentation. Developed from the Meta-Llama-3.1-70B foundation, AstroSage-Llama-3.1-70B underwent extensive continued pre-training (CPT) on a vast corpus of astronomical literature, followed by supervised fine-tuning (SFT) and model merging. We integrated reasoning chains into the SFT dataset, enabling AstroSage-Llama-3.1-70B to either answer the user query immediately, or first emit a human-readable thought process. Evaluated on a validated subset of 3,846 questions from the AstroMLab-1 benchmark (Ting et al., 2024) -- derived from literature withheld during training -- AstroSage-Llama-3.1-70B achieves top-tier performance (89.0%), matching GPT-5.2, Claude-4.5-Opus, and Gemini-3-Pro while being more cost-efficient. This work demonstrates that domain specialization, when applied to large-scale models, can enable them to outperform generalist counterparts in specialized knowledge areas like astronomy, thereby advancing the frontier of AI capabilities in the field.",
       "arxiv_id": "2505.17592",
       "arxiv_version": "2505.17592v2",
+      "author_ids_s2": [
+        "2260337474",
+        "2277742348",
+        "2301583035",
+        "2310232907",
+        "2311506761",
+        "2311510072",
+        "2323501341",
+        "2329737480",
+        "2329739232",
+        "71349489"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -265,17 +374,49 @@
       "pdf_url": "https://arxiv.org/pdf/2505.17592v2",
       "primary_category": "astro-ph.IM",
       "published": "2025-05-23T07:58:50Z",
+      "s2_paper_id": "e1dbae2d4b486c5a83cba9d4180789b092752e3e",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "AstroMLab 4: Benchmark-Topping Performance in Astronomy Q&A with a 70B-Parameter Domain-Specialized Reasoning Model",
       "updated": "2026-02-19T23:28:22Z",
-      "url": "https://arxiv.org/abs/2505.17592"
+      "url": "https://arxiv.org/abs/2505.17592",
+      "venue": "arXiv.org"
     },
     {
       "abstract": "The volume of scientific literature is growing exponentially, leading to underutilized discoveries, duplicated efforts, and limited cross-disciplinary collaboration. Retrieval Augmented Generation (RAG) offers a way to assist scientists by improving the factuality of Large Language Models (LLMs) in processing this influx of information. However, scaling RAG to handle millions of articles introduces significant challenges, including the high computational costs associated with parsing documents and embedding scientific knowledge, as well as the algorithmic complexity of aligning these representations with the nuanced semantics of scientific content. To address these issues, we introduce HiPerRAG, a RAG workflow powered by high performance computing (HPC) to index and retrieve knowledge from more than 3.6 million scientific articles. At its core are Oreo, a high-throughput model for multimodal document parsing, and ColTrast, a query-aware encoder fine-tuning algorithm that enhances retrieval accuracy by using contrastive learning and late-interaction techniques. HiPerRAG delivers robust performance on existing scientific question answering benchmarks and two new benchmarks introduced in this work, achieving 90% accuracy on SciQ and 76% on PubMedQA-outperforming both domain-specific models like PubMedGPT and commercial LLMs such as GPT-4. Scaling to thousands of GPUs on the Polaris, Sunspot, and Frontier supercomputers, HiPerRAG delivers million document-scale RAG workflows for unifying scientific knowledge and fostering interdisciplinary innovation.",
       "arxiv_id": "2505.04846",
       "arxiv_version": "2505.04846v1",
+      "author_ids_s2": [
+        "144373088",
+        "145523800",
+        "1857295",
+        "2028614047",
+        "2249581864",
+        "2256984116",
+        "2256988999",
+        "2257161858",
+        "2267938602",
+        "2273787345",
+        "2273794888",
+        "2273822895",
+        "2275054834",
+        "2275055526",
+        "2280837880",
+        "2289284333",
+        "2298685382",
+        "2301456268",
+        "2309245702",
+        "2311510072",
+        "2347534323",
+        "2359633581",
+        "40135450",
+        "51916788"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -387,17 +528,51 @@
       "pdf_url": "https://arxiv.org/pdf/2505.04846v1",
       "primary_category": "cs.IR",
       "published": "2025-05-07T22:50:23Z",
+      "s2_paper_id": "4e0f098c4fba50b85ad4ce142c4dbe9f97208d08",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "HiPerRAG: High-Performance Retrieval Augmented Generation for Scientific Insights",
       "updated": "2025-05-07T22:50:23Z",
-      "url": "https://arxiv.org/abs/2505.04846"
+      "url": "https://arxiv.org/abs/2505.04846",
+      "venue": "Platform for Advanced Scientific Computing Conference"
     },
     {
       "abstract": "Recent advancements have positioned AI, and particularly Large Language Models (LLMs), as transformative tools for scientific research, capable of addressing complex tasks that require reasoning, problem-solving, and decision-making. Their exceptional capabilities suggest their potential as scientific research assistants but also highlight the need for holistic, rigorous, and domain-specific evaluation to assess effectiveness in real-world scientific applications. This paper describes a multifaceted methodology for Evaluating AI models as scientific Research Assistants (EAIRA) developed at Argonne National Laboratory. This methodology incorporates four primary classes of evaluations. 1) Multiple Choice Questions to assess factual recall; 2) Open Response to evaluate advanced reasoning and problem-solving skills; 3) Lab-Style Experiments involving detailed analysis of capabilities as research assistants in controlled environments; and 4) Field-Style Experiments to capture researcher-LLM interactions at scale in a wide range of scientific domains and applications. These complementary methods enable a comprehensive analysis of LLM strengths and weaknesses with respect to their scientific knowledge, reasoning abilities, and adaptability. Recognizing the rapid pace of LLM advancements, we designed the methodology to evolve and adapt so as to ensure its continued relevance and applicability. This paper describes the methodology state at the end of February 2025. Although developed within a subset of scientific domains, the methodology is designed to be generalizable to a wide range of scientific domains.",
       "arxiv_id": "2502.20309",
       "arxiv_version": "2502.20309v1",
+      "author_ids_s2": [
+        "103457079",
+        "1403764279",
+        "2208575928",
+        "2239205420",
+        "2244621639",
+        "2247675273",
+        "2248443582",
+        "2271352866",
+        "2273091847",
+        "2275055526",
+        "2304499386",
+        "2305622167",
+        "2311510072",
+        "2311882756",
+        "2321948704",
+        "2334481348",
+        "2338829395",
+        "2344835604",
+        "2347534323",
+        "2347535932",
+        "2347540709",
+        "2364081955",
+        "2388081455",
+        "2448592",
+        "51170522",
+        "71349489"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -513,17 +688,34 @@
       "pdf_url": "https://arxiv.org/pdf/2502.20309v1",
       "primary_category": "cs.AI",
       "published": "2025-02-27T17:35:57Z",
+      "s2_paper_id": "d8b2a313d52b9caaccc5a38f13a6ffe038dac024",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "EAIRA: Establishing a Methodology for Evaluating AI Models as Scientific Research Assistants",
       "updated": "2025-02-27T17:35:57Z",
-      "url": "https://arxiv.org/abs/2502.20309"
+      "url": "https://arxiv.org/abs/2502.20309",
+      "venue": "arXiv.org"
     },
     {
       "abstract": "AstroSage-Llama-3.1-8B is a domain-specialized natural-language AI assistant tailored for research in astronomy, astrophysics, cosmology, and astronomical instrumentation. Trained on the complete collection of astronomy-related arXiv papers from 2007 to 2024 along with millions of synthetically-generated question-answer pairs and other astronomical literature, AstroSage-Llama-3.1-8B demonstrates remarkable proficiency on a wide range of questions. AstroSage-Llama-3.1-8B scores 80.9% on the AstroMLab-1 benchmark, greatly outperforming all models -- proprietary and open-weight -- in the 8-billion parameter class, and performing on par with GPT-4o. This achievement demonstrates the potential of domain specialization in AI, suggesting that focused training can yield capabilities exceeding those of much larger, general-purpose models. AstroSage-Llama-3.1-8B is freely available, enabling widespread access to advanced AI capabilities for astronomical education and research.",
       "arxiv_id": "2411.09012",
       "arxiv_version": "2411.09012v3",
+      "author_ids_s2": [
+        "134783907",
+        "2239167308",
+        "2260337474",
+        "2277742348",
+        "2301583035",
+        "2311506761",
+        "2311510072",
+        "2323501341",
+        "71349489"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -571,17 +763,29 @@
       "pdf_url": "https://arxiv.org/pdf/2411.09012v3",
       "primary_category": "astro-ph.IM",
       "published": "2024-11-13T20:36:02Z",
+      "s2_paper_id": "85f6e624e083b5488ce2a0d8cbbfc7eab2b64ba2",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "AstroMLab 3: Achieving GPT-4o Level Performance in Astronomy with a Specialized 8B-Parameter Large Language Model",
       "updated": "2025-04-23T02:34:59Z",
-      "url": "https://arxiv.org/abs/2411.09012"
+      "url": "https://arxiv.org/abs/2411.09012",
+      "venue": "Scientific Reports"
     },
     {
       "abstract": "Recent observations made using the James Webb Space Telescope have identified a number of high-redshift galaxies that are unexpectedly luminous. In light of this, it is clear that a more detailed understanding of the high redshift, pre-reionization universe is required for us to obtain the complete story of galaxy formation. This study is the first in a series that seeks to tell the story of galaxy formation at $z \\gtrsim 10$ using a suite of large-scale adaptive mesh refinement cosmological simulations. Our machine-learning-accelerated surrogate model for Population III star formation and feedback, StarNet, gives us an unprecedented ability to obtain physically accurate, inhomogeneous chemical initial conditions for a statistically significant number of galaxies. We find that of the 12,423 halos in the mass range of $10^6\\,\\,M_\\odot < M_\\mathrm{vir} < 10^9\\,\\, M_\\odot$ that form in our fiducial simulation, $16\\%$ are chemically enriched by Population III supernovae by $z\\sim12$. We then profile and compare various cooling processes at the centers of halos, and find a complete absence of atomic cooling halos. All of our halos with central cooling gas are dominated by H$_2$ cooling, metal cooling, or a mixture of the two, even in the presence of a strong H$_2$-photodissociating Lyman-Werner background. We also find that gas accretion through the virial radius is not driven by cooling. We find that gas virialization in halos with $M_\\mathrm{vir}\\gtrsim10^7\\,\\,M_\\odot$ is supported by bulk turbulent flows, and that thermal energy accounts for only a small fraction of the total kinetic energy. Because of this, the mean gas temperature is well below the virial temperature for these halos. We then compute the mass of gas that is available for Population II star formation, and infer star formation rates for each potential star-forming halo.",
       "arxiv_id": "2407.20429",
       "arxiv_version": "2407.20429v1",
+      "author_ids_s2": [
+        "145759249",
+        "2059571282",
+        "2264677657",
+        "51939892"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -609,17 +813,36 @@
       "pdf_url": "https://arxiv.org/pdf/2407.20429v1",
       "primary_category": "astro-ph.GA",
       "published": "2024-07-29T21:39:48Z",
+      "s2_paper_id": "a965f5fa0eceb842fffa9f5f5703fa1864475732",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "Galaxies and Their Environment at $z \\gtrsim 10$ -- I: Primordial Chemical Enrichment, Accretion, Cooling, and Virialization of Gas in Dark Matter Halos",
       "updated": "2024-07-29T21:39:48Z",
-      "url": "https://arxiv.org/abs/2407.20429"
+      "url": "https://arxiv.org/abs/2407.20429",
+      "venue": null
     },
     {
       "abstract": "We present a comprehensive evaluation of proprietary and open-weights large language models using the first astronomy-specific benchmarking dataset. This dataset comprises 4,425 multiple-choice questions curated from the Annual Review of Astronomy and Astrophysics, covering a broad range of astrophysical topics. Our analysis examines model performance across various astronomical subfields and assesses response calibration, crucial for potential deployment in research environments. Claude-3.5-Sonnet outperforms competitors by up to 4.6 percentage points, achieving 85.0% accuracy. For proprietary models, we observed a universal reduction in cost every 3-to-12 months to achieve similar score in this particular astronomy benchmark. open-weights models have rapidly improved, with LLaMA-3-70b (80.6%) and Qwen-2-72b (77.7%) now competing with some of the best proprietary models. We identify performance variations across topics, with non-English-focused models generally struggling more in exoplanet-related fields, stellar astrophysics, and instrumentation related questions. These challenges likely stem from less abundant training data, limited historical context, and rapid recent developments in these areas. This pattern is observed across both open-weights and proprietary models, with regional dependencies evident, highlighting the impact of training data diversity on model performance in specialized scientific domains. Top-performing models demonstrate well-calibrated confidence, with correlations above 0.9 between confidence and correctness, though they tend to be slightly underconfident. The development for fast, low-cost inference of open-weights models presents new opportunities for affordable deployment in astronomy. The rapid progress observed suggests that LLM-driven research in astronomy may become feasible in the near future.",
       "arxiv_id": "2407.11194",
       "arxiv_version": "2407.11194v2",
+      "author_ids_s2": [
+        "2116225572",
+        "2121219459",
+        "2239167308",
+        "2277742348",
+        "2282048665",
+        "2292403221",
+        "2301583035",
+        "2310232907",
+        "2311506761",
+        "2311510072",
+        "71349489"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -680,17 +903,234 @@
       "pdf_url": "https://arxiv.org/pdf/2407.11194v2",
       "primary_category": "astro-ph.IM",
       "published": "2024-07-15T19:28:14Z",
+      "s2_paper_id": "d238b18f2c71d8b974e69276951891468bda4ac0",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "AstroMLab 1: Who Wins Astronomy Jeopardy!?",
       "updated": "2024-11-08T22:00:26Z",
-      "url": "https://arxiv.org/abs/2407.11194"
+      "url": "https://arxiv.org/abs/2407.11194",
+      "venue": "Astronomy and Computing"
+    },
+    {
+      "abstract": "",
+      "arxiv_id": null,
+      "arxiv_version": null,
+      "author_ids_s2": [
+        "2267938602",
+        "2157261",
+        "40135450",
+        "2203827274",
+        "2314492392",
+        "2267942793",
+        "2288265018",
+        "2066053487",
+        "2237716688",
+        "2213733145",
+        "2267943594",
+        "2320905577",
+        "2258239866",
+        "2381375055",
+        "2213182606",
+        "51170522",
+        "2255412073",
+        "2028614047",
+        "38072909",
+        "2253287287",
+        "2162047944",
+        "2320905568",
+        "32218903",
+        "71349489",
+        "47941567",
+        "38722980",
+        "151462530",
+        "2261613379",
+        "2261511231",
+        "2066071",
+        "2311510072",
+        "2265385481",
+        "2249572246",
+        "1696668",
+        "2281679662",
+        "2258983813"
+      ],
+      "authors": [
+        {
+          "affiliation": null,
+          "name": "Venkat Vishwanath"
+        },
+        {
+          "affiliation": null,
+          "name": "M. Emani"
+        },
+        {
+          "affiliation": null,
+          "name": "V. Sastry"
+        },
+        {
+          "affiliation": null,
+          "name": "William Arnold"
+        },
+        {
+          "affiliation": null,
+          "name": "Rajeev Thakur"
+        },
+        {
+          "affiliation": null,
+          "name": "Valerie Taylor"
+        },
+        {
+          "affiliation": null,
+          "name": "Ian T. Foster"
+        },
+        {
+          "affiliation": null,
+          "name": "S. Habib"
+        },
+        {
+          "affiliation": null,
+          "name": "M. Papka"
+        },
+        {
+          "affiliation": null,
+          "name": "Bryce Allen"
+        },
+        {
+          "affiliation": null,
+          "name": "Henry Chan"
+        },
+        {
+          "affiliation": null,
+          "name": "Rodrigo Ceccato de Freitas"
+        },
+        {
+          "affiliation": null,
+          "name": "Mathew J. Cherukara"
+        },
+        {
+          "affiliation": null,
+          "name": "Miaoqi Chu"
+        },
+        {
+          "affiliation": null,
+          "name": "Jose M. Monsalve Diaz"
+        },
+        {
+          "affiliation": null,
+          "name": "N. Getty"
+        },
+        {
+          "affiliation": null,
+          "name": "Ross J. Harder"
+        },
+        {
+          "affiliation": null,
+          "name": "Kyle Hippe"
+        },
+        {
+          "affiliation": null,
+          "name": "S. Kandel"
+        },
+        {
+          "affiliation": null,
+          "name": "A. Miceli"
+        },
+        {
+          "affiliation": null,
+          "name": "Suresh Narayanan"
+        },
+        {
+          "affiliation": null,
+          "name": "Oleksandr Narykov"
+        },
+        {
+          "affiliation": null,
+          "name": "A. Partin"
+        },
+        {
+          "affiliation": null,
+          "name": "Nesar Ramachandra"
+        },
+        {
+          "affiliation": null,
+          "name": "Arvind Ramanathan"
+        },
+        {
+          "affiliation": null,
+          "name": "Esteban Rangel"
+        },
+        {
+          "affiliation": null,
+          "name": "Siddhisanket Raskar"
+        },
+        {
+          "affiliation": null,
+          "name": "Andrew Siegel"
+        },
+        {
+          "affiliation": null,
+          "name": "John R. Tramm"
+        },
+        {
+          "affiliation": null,
+          "name": "T. Uram"
+        },
+        {
+          "affiliation": null,
+          "name": "Azton Wells"
+        },
+        {
+          "affiliation": null,
+          "name": "Leighton Wilson"
+        },
+        {
+          "affiliation": null,
+          "name": "Fangfang Xia"
+        },
+        {
+          "affiliation": null,
+          "name": "Kazutomo Yoshii"
+        },
+        {
+          "affiliation": null,
+          "name": "Ruoxi Zhao"
+        },
+        {
+          "affiliation": null,
+          "name": "Tao Zhou"
+        }
+      ],
+      "categories": [],
+      "comment": null,
+      "doi": "10.2172/2439992",
+      "id": "doi:10.2172/2439992",
+      "pdf_url": "https://publications.anl.gov/anlpubs/2023/11/181668.pdf",
+      "primary_category": null,
+      "published": "2023-12-01T00:00:00Z",
+      "s2_paper_id": "f7edfa348aa5887333cd3721c81f0c68f19a14d8",
+      "source": "semanticscholar",
+      "sources": [
+        "semanticscholar"
+      ],
+      "status": "included",
+      "status_reason": "pinned S2 author id",
+      "title": "2023 AI Testbed Expeditions Report",
+      "updated": "2023-12-01T00:00:00Z",
+      "url": "https://doi.org/10.2172/2439992",
+      "venue": null
     },
     {
       "abstract": "We incorporate new scale-intelligent models of metal-enriched star formation (\\starss) with surrogate models of primordial stellar feedback (\\starnet) into the astrophysics simulation code \\enzo to analyze the impact of heterogeneous metal enrichment on the first galaxies. Our study includes the earliest generations of stars and the protogalaxies ($10^6 \\lesssim M_v/M_\\odot \\lesssim 10^8$) containing them. We compare results obtained with the new methods to two common paradigms of metallicity initial conditions in simulations: ignoring the metallicity initial condition and assuming a uniform metallicity floor. We find that ignoring metallicity requirements for enriched star formation results in a redshift-dependent excess in stellar mass created and compounding errors consisting of stars forming in pristine gas. We find that using a metallicity floor causes an early underproduction of stars before $z=21$ that reverses to overproduction by $z=18$. At the final redshift, $z=14.95$, there is $\\sim 20\\%$ excess stellar mass with 8.6\\% increased protogalaxy count. Heterogeneous metallicity initial conditions greatly increase the range of halo observables, e.g., stellar metallicity, stellar mass, and luminosity. The increased range leads to better agreement with observations of ultra-faint dwarf galaxies when compared to metallicity-floor simulations. \\starnet generates protogalaxies with low stellar mass, $M_* \\lesssim 10^3 M_\\odot$, so may also serve to model low-luminosity protogalaxies more effectively than a metallicity floor criterion at similar spatial and mass resolution.",
       "arxiv_id": "2210.14805",
       "arxiv_version": "2210.14805v1",
+      "author_ids_s2": [
+        "145759249",
+        "32505972"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -710,17 +1150,59 @@
       "pdf_url": "https://arxiv.org/pdf/2210.14805v1",
       "primary_category": "astro-ph.GA",
       "published": "2022-10-24T19:58:32Z",
+      "s2_paper_id": "baa8beb8797d06b915d088f951910afafd743290",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "The First Galaxies and the Effect of Heterogeneous Enrichment from Primordial Stars",
       "updated": "2022-10-24T19:58:32Z",
-      "url": "https://arxiv.org/abs/2210.14805"
+      "url": "https://arxiv.org/abs/2210.14805",
+      "venue": null
+    },
+    {
+      "abstract": "",
+      "arxiv_id": null,
+      "arxiv_version": null,
+      "author_ids_s2": [
+        "145759249"
+      ],
+      "authors": [
+        {
+          "affiliation": null,
+          "name": "Azton I. Wells"
+        }
+      ],
+      "categories": [],
+      "comment": null,
+      "doi": null,
+      "id": "s2:0f1b77132ba32d42c36f0d6018d94f0be514b92c",
+      "pdf_url": "",
+      "primary_category": null,
+      "published": "2022-01-01T00:00:00Z",
+      "s2_paper_id": "0f1b77132ba32d42c36f0d6018d94f0be514b92c",
+      "source": "semanticscholar",
+      "sources": [
+        "semanticscholar"
+      ],
+      "status": "included",
+      "status_reason": "pinned S2 author id",
+      "title": "Physically Motivated Sub-grid and Surrogate Models of Star Formation and Feedback in Eulerian Adaptive Mesh Cosmological Simulations",
+      "updated": "2022-01-01T00:00:00Z",
+      "url": "https://www.semanticscholar.org/paper/0f1b77132ba32d42c36f0d6018d94f0be514b92c",
+      "venue": null
     },
     {
       "abstract": "We introduce the {\\em Phoenix Simulations}, a suite of highly resolved cosmological simulations featuring hydrodynamics, primordial gas chemistry, Population III and II star formation and feedback, UV radiative transfer, and saved outputs with $\u0394t$=200 kyr. The suite samples 73,523 distinct primordial star formation events within \\npiii distinct regions, forming \\ngii second-generation enriched star clusters by $z \\geq 12$ within a cumulative 156.25 Mpc$^3$ volume. The regions that lead to enriched star formation contain up to $167$ primordial stars, with 78.7 \\% of regions having experienced multiple types of primordial supernovae. The extent of a primordial region, measured by its metal-rich surrounding cloud, is highly variable: the average region has radius $\\sim 3$ kpc, with 95 \\% confidence limit on the distribution of measured radii is $\\sim 5-7$ kpc. For continuing star formation, we find that the metallicity distribution of second generation stars is similar to that of subsequent Population II star formation, with both distributions spanning hyper metal-deficient ([Z/H]$\\sim-7$) to super-solar ([Z/H]$\\sim0.8$). We find that the metallicity of second generation stars has no strong dependence on the configuration of progenitor supernovae, with the mean metallicity of second-generation stars having $-1.73 < $[Z/H]$<-2.15$. Finally, we create an interpretable regression model to predict the radius of metal-rich influence of \\piii star systems within the first 7-18 Myr after the first light. The model predicts the radius with $R_2 \\gtrsim 0.4$ and mean squared error $\\leq 0.06$. The probability distribution function of predicted radii compares well to that of observed radii with Jensen-Shannon distance $\\lesssim 0.2$ for all modelled times.",
       "arxiv_id": "2111.10651",
       "arxiv_version": "2111.10651v1",
+      "author_ids_s2": [
+        "145759249",
+        "32505972"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -740,17 +1222,27 @@
       "pdf_url": "https://arxiv.org/pdf/2111.10651v1",
       "primary_category": "astro-ph.GA",
       "published": "2021-11-20T18:36:56Z",
+      "s2_paper_id": "dbfc59403a61545023373b9f5c85ecce8057c26b",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "Connecting Primordial Star Forming Regions and Second Generation Star Formation in the Phoenix Simulations",
       "updated": "2021-11-20T18:36:56Z",
-      "url": "https://arxiv.org/abs/2111.10651"
+      "url": "https://arxiv.org/abs/2111.10651",
+      "venue": "Astrophysical Journal"
     },
     {
       "abstract": "We investigate applying 3D deep convolutional neural networks as fast surrogate models of the formation and feedback effects of primordial stars in hydrodynamic cosmological simulations of the first galaxies. Here, we present the surrogate model to predict localized primordial star formation; the feedback model will be presented in a subsequent paper. The star formation prediction model consists of two sub-models: the first is a 3D volume classifier that predicts which (10 comoving kpc)$^3$ volumes will host star formation, followed by a 3D Inception-based U-net voxel segmentation model that predicts which voxels will form primordial stars. We find that the combined model predicts primordial star forming volumes with high skill, with $F_1 >0.995$ and true skill score $>0.994$. The star formation is localized within the volume to $\\lesssim5^3$~voxels ($\\sim1.6$~comoving kpc$^3$) with $F_1>0.399$ and true skill score $>0.857$. Applied to simulations with low spatial resolution, the model predicts star forming regions in the same locations and at similar redshifts as sites in resolved full-physics simulations that explicitly model primordial star formation and feedback. When applied to simulations with lower mass resolution, we find that the model predicts star forming regions at later redshift due to delayed structure formation resulting from lower mass resolution. Our model predicts primordial star formation without halo finding, so will be useful in spatially under-resolved simulations that cannot resolve primordial star forming halos. To our knowledge, this is the first model that can predict primordial star forming regions that match highly-resolved cosmological simulations.",
       "arxiv_id": "2011.01358",
       "arxiv_version": "2011.01358v2",
+      "author_ids_s2": [
+        "145759249",
+        "32505972"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -772,17 +1264,68 @@
       "pdf_url": "https://arxiv.org/pdf/2011.01358v2",
       "primary_category": "astro-ph.GA",
       "published": "2020-11-02T22:32:27Z",
+      "s2_paper_id": "cd9f9723d9036980122725e1391acd61ebf96dac",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "Predicting Localized Primordial Star Formation with Deep Convolutional Neural Networks",
       "updated": "2021-04-20T21:47:02Z",
-      "url": "https://arxiv.org/abs/2011.01358"
+      "url": "https://arxiv.org/abs/2011.01358",
+      "venue": "Astrophysical Journal Supplement Series"
+    },
+    {
+      "abstract": "",
+      "arxiv_id": null,
+      "arxiv_version": null,
+      "author_ids_s2": [
+        "145759249",
+        "32505972"
+      ],
+      "authors": [
+        {
+          "affiliation": null,
+          "name": "Azton I. Wells"
+        },
+        {
+          "affiliation": null,
+          "name": "M. Norman"
+        }
+      ],
+      "categories": [],
+      "comment": null,
+      "doi": null,
+      "id": "s2:bee2f577bca730baa0b82ff2fde026962fec90ce",
+      "pdf_url": "",
+      "primary_category": null,
+      "published": "2020-11-02T00:00:00Z",
+      "s2_paper_id": "bee2f577bca730baa0b82ff2fde026962fec90ce",
+      "source": "semanticscholar",
+      "sources": [
+        "semanticscholar"
+      ],
+      "status": "excluded",
+      "status_reason": "manual exclude",
+      "title": "Predicting Primordial Star Formation with Deep Convolutional Neural Networks.",
+      "updated": "2020-11-02T00:00:00Z",
+      "url": "https://www.semanticscholar.org/paper/bee2f577bca730baa0b82ff2fde026962fec90ce",
+      "venue": null
     },
     {
       "abstract": "Recent high-resolution simulations of early structure formation have shown that externally enriched halos may form some of the first metal enriched stars. This study utilizes a 1 comoving Mpc$^3$ high-resolution simulation to study the enrichment process of metal-enriched halos down to $z=9.3$. Our simulation uniquely tracks the metals ejected from Population III stars, and we use this information to identify the origin of metals within metal-enriched halos. These halos show a wide range of metallicities, but we find that the source of metals for $\\gtrsim$ 50\\% of metal-enriched halos is supernova explosions of Population III stars occuring outside their virial radii. The results presented here indicate that external enrichment by metal-free stars dominates the enrichment process of halos with virial mass below $10^{6}\\,M_\\odot$ down to $z=9.3$. Despite the prevalence of external enrichment in low mass halos, Pop II stars forming due to external enrichment are rare because of the small contribution of low-mass halos to the global star formation rate combined with low metallicities towards the center of these halos resulting from metal ejecta from external sources mixing from the outside-in. The enriched stars that do form through this process have absolute metallicities below $10^{-3}\\,Z_\\odot$. We also find that the fraction of externally enriched halos increases with time, $\\sim 90\\%$ of halos that are externally enriched have $M_\\mathrm{vir} < 10^6\\,M_\\odot$, and that pair-instability supernovae contribute the most to the enrichment of the IGM as a whole and are thus are the predominant supernova type contributing to the external enrichment of halos.",
       "arxiv_id": "2009.05499",
       "arxiv_version": "2009.05499v2",
+      "author_ids_s2": [
+        "1382574047",
+        "145759249",
+        "152381650",
+        "30315192",
+        "32505972",
+        "51074801"
+      ],
       "authors": [
         {
           "affiliation": null,
@@ -818,17 +1361,220 @@
       "pdf_url": "https://arxiv.org/pdf/2009.05499v2",
       "primary_category": "astro-ph.GA",
       "published": "2020-09-11T15:50:02Z",
+      "s2_paper_id": "182b3242eec4e6a5968cfebd7fd9eedf2a2e6f57",
       "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "semanticscholar"
+      ],
       "status": "included",
-      "status_reason": "exact name match",
+      "status_reason": "pinned S2 author id",
       "title": "External Enrichment of Minihalos by the First Supernovae",
       "updated": "2021-01-10T22:28:46Z",
-      "url": "https://arxiv.org/abs/2009.05499"
+      "url": "https://arxiv.org/abs/2009.05499",
+      "venue": null
+    },
+    {
+      "abstract": "",
+      "arxiv_id": null,
+      "arxiv_version": null,
+      "author_ids_s2": [
+        "145854917",
+        "93775951",
+        "2052972232",
+        "145759249",
+        "40182275",
+        "93898221",
+        "49214111",
+        "10037630",
+        "4319671"
+      ],
+      "authors": [
+        {
+          "affiliation": null,
+          "name": "A. Weis"
+        },
+        {
+          "affiliation": null,
+          "name": "M. Fizari"
+        },
+        {
+          "affiliation": null,
+          "name": "David F. Hamilton"
+        },
+        {
+          "affiliation": null,
+          "name": "Azton I. Wells"
+        },
+        {
+          "affiliation": null,
+          "name": "J. Lane"
+        },
+        {
+          "affiliation": null,
+          "name": "S. Chung"
+        },
+        {
+          "affiliation": null,
+          "name": "P. Sellappan"
+        },
+        {
+          "affiliation": null,
+          "name": "W. Kriven"
+        },
+        {
+          "affiliation": null,
+          "name": "D. Harlingen"
+        }
+      ],
+      "categories": [],
+      "comment": null,
+      "doi": null,
+      "id": "s2:b209ae65952a05bb16b543d496f664ae67b4a136",
+      "pdf_url": "",
+      "primary_category": null,
+      "published": "2016-03-15T00:00:00Z",
+      "s2_paper_id": "b209ae65952a05bb16b543d496f664ae67b4a136",
+      "source": "semanticscholar",
+      "sources": [
+        "semanticscholar"
+      ],
+      "status": "included",
+      "status_reason": "pinned S2 author id",
+      "title": "Resistance Fluctuation Spectroscopy of Charge Stripes and Intertwined Orders in the Phase Diagram of La$_{2-x}$Ba$_x$CuO$_4$",
+      "updated": "2016-03-15T00:00:00Z",
+      "url": "https://www.semanticscholar.org/paper/b209ae65952a05bb16b543d496f664ae67b4a136",
+      "venue": null
+    },
+    {
+      "abstract": "",
+      "arxiv_id": null,
+      "arxiv_version": null,
+      "author_ids_s2": [
+        "145854917",
+        "145759249",
+        "40182275",
+        "93898221",
+        "49214111",
+        "10037630",
+        "4319671"
+      ],
+      "authors": [
+        {
+          "affiliation": null,
+          "name": "A. Weis"
+        },
+        {
+          "affiliation": null,
+          "name": "Azton I. Wells"
+        },
+        {
+          "affiliation": null,
+          "name": "J. Lane"
+        },
+        {
+          "affiliation": null,
+          "name": "S. Chung"
+        },
+        {
+          "affiliation": null,
+          "name": "P. Sellappan"
+        },
+        {
+          "affiliation": null,
+          "name": "W. Kriven"
+        },
+        {
+          "affiliation": null,
+          "name": "D. Harlingen"
+        }
+      ],
+      "categories": [],
+      "comment": null,
+      "doi": null,
+      "id": "s2:04344a0cb2b863ffbaa1c3eb5740549380b3e139",
+      "pdf_url": "",
+      "primary_category": null,
+      "published": "2015-03-02T00:00:00Z",
+      "s2_paper_id": "04344a0cb2b863ffbaa1c3eb5740549380b3e139",
+      "source": "semanticscholar",
+      "sources": [
+        "semanticscholar"
+      ],
+      "status": "included",
+      "status_reason": "pinned S2 author id",
+      "title": "Mapping the Striped Phase Diagram of La$_{2-x}$Ba$_x$CuO$_4$ with Resistance Fluctuation Spectroscopy",
+      "updated": "2015-03-02T00:00:00Z",
+      "url": "https://www.semanticscholar.org/paper/04344a0cb2b863ffbaa1c3eb5740549380b3e139",
+      "venue": null
+    },
+    {
+      "abstract": "",
+      "arxiv_id": null,
+      "arxiv_version": null,
+      "author_ids_s2": [
+        "40182275",
+        "145854917",
+        "145759249",
+        "93898221",
+        "49214111",
+        "10037630",
+        "4319671"
+      ],
+      "authors": [
+        {
+          "affiliation": null,
+          "name": "J. Lane"
+        },
+        {
+          "affiliation": null,
+          "name": "A. Weis"
+        },
+        {
+          "affiliation": null,
+          "name": "Azton I. Wells"
+        },
+        {
+          "affiliation": null,
+          "name": "S. Chung"
+        },
+        {
+          "affiliation": null,
+          "name": "P. Sellappan"
+        },
+        {
+          "affiliation": null,
+          "name": "W. Kriven"
+        },
+        {
+          "affiliation": null,
+          "name": "D. Harlingen"
+        }
+      ],
+      "categories": [],
+      "comment": null,
+      "doi": null,
+      "id": "s2:287098574e8fb4e9e57544dce8e0cfa05a9d9be3",
+      "pdf_url": "",
+      "primary_category": null,
+      "published": "2015-03-02T00:00:00Z",
+      "s2_paper_id": "287098574e8fb4e9e57544dce8e0cfa05a9d9be3",
+      "source": "semanticscholar",
+      "sources": [
+        "semanticscholar"
+      ],
+      "status": "included",
+      "status_reason": "pinned S2 author id",
+      "title": "Combinatorial Deposition of La$_{2-x}$Ba$_x$CuO$_4$ Thin Films Across the x=1/8 Anomaly",
+      "updated": "2015-03-02T00:00:00Z",
+      "url": "https://www.semanticscholar.org/paper/287098574e8fb4e9e57544dce8e0cfa05a9d9be3",
+      "venue": null
     }
   ],
-  "generated_at": "2026-04-17T19:06:08+00:00",
+  "generated_at": "2026-04-17T19:37:13+00:00",
   "query": "au:\"Azton Wells\"",
   "sources_queried": [
-    "arxiv"
+    "arxiv",
+    "semanticscholar"
   ]
 }

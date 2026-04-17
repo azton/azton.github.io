@@ -24,11 +24,14 @@ diff reads cleanly. Push once at the end.
 
 Source files:
 
-- `tools/works/update.py` — fetches arXiv for the author.
-- `tools/works/overrides.yml` — manual include/exclude of arXiv IDs.
+- `tools/works/update.py` — fetches arXiv + Semantic Scholar and merges.
+- `tools/works/overrides.yml` — manual include/exclude + pinned S2
+  `author_ids`. include/exclude accept bare arXiv id (`2511.10687`),
+  `arxiv:<id>`, `doi:<doi>`, or `s2:<paperId>`.
 - `tools/works/requirements.txt` — `PyYAML`.
-- `_pages/my-work.markdown` — the page shell. Contains the bio between the
-  `<!-- BIO-START -->` / `<!-- BIO-END -->` markers.
+- `_pages/my-work.markdown` — the page shell (renders the papers grid).
+- `_pages/index.markdown` — home page. The bio lives here, between the
+  `<!-- BIO-START -->` / `<!-- BIO-END -->` markers, directly under the gif.
 - `assets/js/works.js`, `assets/css/works.css` — renderer + styles.
 - `assets/data/works.json` — generated output. **Commit this.**
 
@@ -43,26 +46,35 @@ Source files:
    ```bash
    python tools/works/update.py
    ```
-   The script prints `included`, `excluded`, and `needs_review` counts. It
-   also lists each `needs_review` arXiv ID with its title and lead author.
+   Two sources are queried: arXiv (`au:"Azton Wells"`) and Semantic Scholar
+   (every pinned `author_ids` in overrides.yml). Results are merged by
+   arXiv id → DOI → normalized title. S2 is how we catch papers arXiv
+   misses (journal-only publications, old conference papers, etc.). The
+   script prints `included`, `excluded`, and `needs_review` counts.
 
-3. **Resolve `needs_review`.** arXiv's name match of `au:"Azton Wells"`
-   catches most things unambiguously, but anything where no author string
-   matched an exact form (`Azton Wells`, `Azton I. Wells`) lands here. For
-   each:
-   - Open `https://arxiv.org/abs/<id>` and read the author list + abstract.
-   - If it's clearly Azton, add the bare id to `include:` in
-     `tools/works/overrides.yml`.
-   - If it's clearly someone else, add it to `exclude:` so future runs stop
-     warning about it.
-   - If you can't tell, leave it out (it stays in `needs_review`, invisible
-     on the page).
+3. **Resolve `needs_review`.** For arXiv-only records this triggers when
+   no author string exactly matches `Azton Wells` / `Azton I. Wells`
+   (case-insensitive, punctuation-tolerant). S2 records auto-include when
+   tied to a pinned `author_ids` profile, so they don't usually land here.
+   For each needs_review entry:
+   - Open the paper and read the author list + abstract.
+   - If it's clearly Azton, add the identifier to `include:` in
+     `tools/works/overrides.yml` — any of bare arxiv id, `arxiv:<id>`,
+     `doi:<doi>`, or `s2:<paperId>` works.
+   - If it's clearly someone else, add it to `exclude:`.
+   - If you can't tell, leave it out (it stays in `needs_review`).
+
+   **Also spot-check included S2-only entries.** S2 sometimes attaches
+   name-collision papers or orphan duplicate records to the pinned author
+   profile. Anything co-authored with recognizable colleagues is almost
+   certainly correct; anything with a list of strangers in an unfamiliar
+   subfield should be audited. Exclude false positives by `s2:<paperId>`.
 
 4. Re-run the script until `needs_review` is empty or contains only entries
    you've consciously left unresolved.
 
 5. **Rewrite the bio.** Read every `included` entry's title + abstract in
-   `assets/data/works.json`. Then edit `_pages/my-work.markdown`, replacing
+   `assets/data/works.json`. Then edit `_pages/index.markdown`, replacing
    everything between `<!-- BIO-START -->` and `<!-- BIO-END -->` with a
    ~150–250 word bio that:
    - Summarizes research themes (not a list of papers — thematic synthesis).
@@ -76,28 +88,34 @@ Source files:
 
 6. Preview locally if you want (`bundle exec jekyll serve`) then commit:
    ```bash
-   git add assets/data/works.json tools/works/overrides.yml _pages/my-work.markdown
+   git add assets/data/works.json tools/works/overrides.yml _pages/index.markdown
    git commit -m "works: refresh papers and bio"
    git push
    ```
 
 ### Disambiguation rules (what the script decides on its own)
 
-- `author name == "Azton Wells"` (any middle-initial variant, case-insensitive,
-  punctuation-tolerant) → **included**. The middle initial makes this safe.
-- Appears in `overrides.yml` `exclude` → **excluded**.
-- Appears in `overrides.yml` `include` → **included** even if the name is
-  ambiguous.
-- Otherwise → **needs_review**.
+Checked in this order; first match wins:
 
-Do not relax the default — false positives on big collaboration papers are the
-main risk.
+1. Identifier in `overrides.yml` `exclude` → **excluded**.
+2. Identifier in `overrides.yml` `include` → **included**.
+3. S2 attributes the paper to a pinned `semantic_scholar.author_ids`
+   profile → **included** (the user vetted the profile).
+4. Any author string exactly matches `Azton Wells` / `Azton I. Wells`
+   (case-insensitive, punctuation-tolerant) → **included**.
+5. Otherwise → **needs_review**.
+
+Do not relax rule 4 — false positives on big collaboration papers are the
+main risk. S2 profile pinning (rule 3) is the trust boundary for non-arXiv
+sources; keep `author_ids` audited when new profiles appear on S2.
 
 ### Future source: bioRxiv
 
 When Azton publishes on bioRxiv, extend `tools/works/update.py` with a
 `fetch_biorxiv()` that returns records matching the same shape as `fetch_arxiv`.
-The rest of the pipeline (classify/write/render) is source-agnostic.
+Plumb it through `main()` and pass the list into `merge_records(...)`
+alongside arXiv and S2 — the rest of the pipeline (classify/dedup/render)
+is source-agnostic.
 
 ---
 
@@ -105,9 +123,16 @@ The rest of the pipeline (classify/write/render) is source-agnostic.
 
 Source files:
 
-- `tools/conferences/update.py` — pulls INSPIRE-HEP + merges curated YAML.
-- `tools/conferences/curated.yml` — hand-maintained venues (deadlines live
-  here; INSPIRE-HEP doesn't expose CFPs).
+- `tools/conferences/update.py` — three sources: INSPIRE-HEP (astro/cosmo
+  conferences), `huggingface/ai-deadlines` (major ML/AI/NLP venues, per-
+  venue YAML pulled from raw.githubusercontent.com), and `curated.yml`.
+  Flags: `--no-inspire`, `--no-ai-deadlines` for debugging a single source.
+- `tools/conferences/curated.yml` — hand-maintained venues. Used for (a)
+  workshop-level entries the other feeds don't carry (ML4PS, AI4Science,
+  ADASS, MLHPC @ SC, AAS), and (b) ML venues missing from ai-deadlines
+  (e.g. MLSys). INSPIRE-HEP doesn't expose CFPs and ai-deadlines is often
+  a cycle behind for brand-new years, so curated remains the source of
+  truth for submission deadlines on anything that matters.
 - `tools/conferences/requirements.txt` — `requests`, `PyYAML`.
 - `_pages/conferences.markdown` — page shell.
 - `assets/js/conferences.js`, `assets/css/conferences.css`.
@@ -152,18 +177,71 @@ Source files:
    python tools/conferences/update.py
    ```
    INSPIRE-HEP is queried for Astrophysics + Gravitation and Cosmology
-   categories, future events only. The script merges curated + INSPIRE
-   (curated wins on id collisions) and sorts by deadline, then event start.
+   categories, future events only. Each INSPIRE hit then runs through a
+   keyword relevance filter (see below) before merging with curated. The
+   script merges curated + filtered INSPIRE (curated wins on id
+   collisions), dedupes by (title, opening_date) since INSPIRE can carry
+   the same physical conference under multiple records, and sorts by
+   deadline then event start.
 
 4. **Spot-check the output.** Open `assets/data/conferences.json` and
    confirm:
-   - Counts are sane (curated entries roughly preserved; INSPIRE count
-     non-zero unless network blocked).
+   - Counts are sane (curated entries preserved; INSPIRE count non-zero
+     unless network blocked; "dropped by relevance filter" line in the
+     script output is non-trivial — typically 60–70% of raw INSPIRE hits
+     get cut).
    - No curated entry has `null` dates that you intended to resolve.
-   - No obvious subdiscipline mismatches from INSPIRE (see guardrails
-     below); if one slips in, the right fix is usually not to add it to an
-     exclude list — just ignore it. The page is driven by filter chips, and
-     anything outside astro/cosmo tags stays off the default view.
+   - Skim the kept INSPIRE titles. If formal-theory venues are slipping
+     through ("Strings 20XX", "<X> in Fundamental Physics", "Holography
+     and <Y>", etc.), tune the keyword lists in `update.py` (see "Keyword
+     filter" below).
+
+### Venue (host-city) filter
+
+INSPIRE entries also pass through a host-city allowlist
+(`US_VENUE_CITIES` and `INTL_VENUE_CITIES` in `update.py`). The site owner
+doesn't travel to small university workshops; this filter keeps:
+
+- **US**: cities containing a top-~50 research university or major astro
+  national lab. National labs are listed by host town
+  (`argonne`, `greenbelt`, `batavia`, `los alamos`, `upton`, `aspen`, ...).
+- **International**: a short list of major astro/physics-adjacent cities
+  where the trip is plausible — Oxford, London, Edinburgh, Zurich,
+  Lausanne, Geneva, Munich, Garching, Heidelberg, Paris/Saclay, Leiden,
+  Tokyo, Kyoto, Beijing, Shanghai, Seoul, Toronto, Vancouver, Canberra,
+  Sydney, Melbourne, etc.
+- Entries with **no location string** (typically virtual/online) pass
+  through — they cost nothing to attend.
+
+Add cities only if you'd actually travel there for a workshop. Removing
+a city is a one-line change. Both lists live at the top of `update.py`
+right under `MIN_RELEVANCE_SCORE`.
+
+### Keyword filter
+
+`tools/conferences/update.py` defines `POS_KEYWORDS` and `NEG_KEYWORDS`.
+INSPIRE entries are scored by keyword hits in their title (+ subtitle):
+
+- A positive hit is required — entries with **zero positive hits are
+  dropped immediately** regardless of negatives.
+- Negative hits subtract 2 each from the score.
+- Entries with final score ≥ 1 are kept.
+
+This is tuned to the site owner's actual research: cosmological hydro
+simulations of the first galaxies, ML/HPC for astro, foundation models for
+cosmology data. Workshop topics like de Sitter holography, lattice QCD,
+collider phenomenology, AdS/CFT, scattering-amplitudes formalism, and
+strings & cosmology are filtered out; observational cosmology, galaxy
+formation, gravitational-wave astronomy (data-side), simulation venues,
+ML-for-science, and HPC stay in.
+
+If a venue you do want is being filtered, add a missing positive keyword
+to `POS_KEYWORDS`. If a venue you don't want is slipping through, look at
+its title and add the most distinctive theoretical-formalism keyword to
+`NEG_KEYWORDS` — and then re-run the script and re-skim the kept list to
+make sure you didn't over-filter. Be careful: "string" alone catches
+"cosmic string" (astro), so the negatives use compound forms like
+"string theor", "strings &", "strings 20".
 
 5. Commit and push:
    ```bash
@@ -182,10 +260,18 @@ rules strictly:
   scope **only if** they host an astro/cosmo-relevant workshop (MLHPC,
   AI4S, SciML, etc.). In that case the *workshop* is the entry, not the
   parent conference. Set `parent:` to the host conference.
-- **General ML** venues (NeurIPS, ICML, ICLR, AAAI) — main tracks are **out
-  of scope**. Their astro/science-focused workshops (ML4PS, AI4Science,
-  AI4DifferentialEquations, ML4Materials if astro-relevant) are in scope.
-  Again, list each workshop as its own entry.
+- **General ML / AI / NLP** venues — **parent conferences ARE tracked**
+  because knowing their CFP cycle predicts when the attached
+  astro/science workshops will open. These are auto-pulled from
+  `huggingface/ai-deadlines`. The whitelist in `update.py`
+  (`AI_DEADLINES_WHITELIST`) covers the big 17: NeurIPS, ICML, ICLR, AAAI,
+  IJCAI, UAI, AISTATS, ACL, EMNLP, NAACL, COLM, CoNLL, KDD, CIKM, SIGIR,
+  ECIR, WSDM. Add/remove venues there, not here in curated.yml, unless
+  the feed is missing the venue entirely (e.g. MLSys). List each
+  science-relevant *workshop* (ML4PS, AI4Science,
+  AI4DifferentialEquations, ML4Materials if astro, SciML/MLIS) as its own
+  curated entry with `parent:` set to the host conference, so the
+  deadline countdown shows on the workshop directly.
 - **Subdiscipline-focused non-astro** venues — materials, quantum
   computing, HEP collider physics, condensed matter, pure biology, etc.
   **Out of scope.** Do not add them even if they have ML content.

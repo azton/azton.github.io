@@ -32,18 +32,19 @@
       `<span class="work-tag${c === w.primary_category ? " primary" : ""}">${esc(c)}</span>`
     ).join("");
     const links = [];
-    if (w.url)      links.push(`<a class="work-link" href="${esc(w.url)}" target="_blank" rel="noopener">arXiv ↗</a>`);
+    if (w.arxiv_id) links.push(`<a class="work-link" href="https://arxiv.org/abs/${esc(w.arxiv_id)}" target="_blank" rel="noopener">arXiv ↗</a>`);
     if (w.pdf_url)  links.push(`<a class="work-link" href="${esc(w.pdf_url)}" target="_blank" rel="noopener">PDF</a>`);
     if (w.doi)      links.push(`<a class="work-link" href="https://doi.org/${esc(w.doi)}" target="_blank" rel="noopener">DOI</a>`);
+    const venue = w.venue && !w.arxiv_id ? `<span class="work-venue">${esc(w.venue)}</span>` : "";
 
     return `
       <article class="work-card" data-id="${esc(w.id)}">
         <h3 class="work-title"><a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.title)}</a></h3>
         <div class="work-authors">${renderAuthors(w.authors || [])}</div>
         <div class="work-date">${esc(fmtDate(w.published))}${w.updated && w.updated !== w.published ? " · updated " + esc(fmtDate(w.updated)) : ""}</div>
-        <p class="work-abstract">${esc(w.abstract)}</p>
+        ${w.abstract ? `<p class="work-abstract">${esc(w.abstract)}</p>` : ""}
         ${w.comment ? `<div class="work-comment">${esc(w.comment)}</div>` : ""}
-        <div class="work-footer">${cats}${links.join("")}</div>
+        <div class="work-footer">${cats}${venue}${links.join("")}</div>
       </article>`;
   }
 

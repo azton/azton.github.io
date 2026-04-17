@@ -1,16 +1,38 @@
-# Manual overrides for the arXiv author disambiguation.
+# Manual overrides for author disambiguation across sources.
 #
 # Each run of `tools/works/update.py`:
-#   - auto-includes any paper where an author string exactly matches
-#     "Azton Wells" or "Azton I. Wells" (case-insensitive). Disambiguation is
-#     trivial because of the distinctive middle initial.
-#   - marks ambiguous matches (e.g. "A. Wells", "A I Wells" alone) as
-#     `needs_review`. They're not published on the page until you add them to
-#     `include:` below.
+#   - Fetches from arXiv (`au:"Azton Wells"`). Auto-includes any paper where
+#     an author string exactly matches "Azton Wells" or "Azton I. Wells"
+#     (case-insensitive, punctuation-tolerant). The middle initial makes
+#     this safe.
+#   - Fetches from Semantic Scholar for each pinned `author_ids` below.
+#     Any paper S2 ties to those IDs is auto-included (you already vetted
+#     the IDs, so trust them). This catches papers arXiv misses — e.g. a
+#     journal publication the author never uploaded to arXiv.
+#   - Papers that appear in both sources are merged (dedup by arXiv ID →
+#     DOI → normalized title). arXiv metadata wins on collision; S2 fills
+#     gaps (DOI, venue, publication-date for non-arXiv papers).
+#   - Ambiguous arXiv matches (e.g. "A. Wells" alone) land in `needs_review`
+#     and stay off the page until you move them into `include` below.
 #
-# Use `include:` to force-add a paper (bare short-form id, no "arxiv:" prefix).
-# Use `exclude:` to suppress a paper the auto-include rule caught by mistake.
+# include / exclude accept any of:
+#   - bare arXiv id          e.g. 2511.10687
+#   - arxiv:<id>             e.g. arxiv:2511.10687
+#   - doi:<doi>              e.g. doi:10.3847/1538-4365/ae42c5
+#   - s2:<paperId>           e.g. s2:1a9763eb2db399057e06ab99acac5c2387007a8f
 
 include: []
 
-exclude: []
+exclude:
+  - 2511.10687
+  # S2 has an orphan duplicate (no arxiv/doi external ids) of the 2020 DCNN
+  # primordial-star paper; the authoritative record is arxiv:2011.01358.
+  - s2:bee2f577bca730baa0b82ff2fde026962fec90ce
+
+# Semantic Scholar splits authors across multiple profiles when topics shift;
+# list every profile that is actually you. Find your ID on the S2 author page
+# URL: https://www.semanticscholar.org/author/<name>/<ID>.
+semantic_scholar:
+  author_ids:
+    - "145759249"    # "Azton I. Wells" — older astro/cosmo work
+    - "2311510072"   # "Azton Wells" — recent LLM / agents work
